@@ -1,0 +1,2610 @@
+[
+    {
+        "club": "FC Barcelona",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/241.png"
+    },
+    {
+        "club": "Juventus",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/45.png"
+    },
+    {
+        "club": "Paris Saint-Germain",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/73.png"
+    },
+    {
+        "club": "Manchester United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/11.png"
+    },
+    {
+        "club": "Manchester City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/10.png"
+    },
+    {
+        "club": "Chelsea",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/5.png"
+    },
+    {
+        "club": "Real Madrid",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/243.png"
+    },
+    {
+        "club": "Atlético Madrid",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/240.png"
+    },
+    {
+        "club": "FC Bayern München",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/21.png"
+    },
+    {
+        "club": "Tottenham Hotspur",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/18.png"
+    },
+    {
+        "club": "Liverpool",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/9.png"
+    },
+    {
+        "club": "Napoli",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/48.png"
+    },
+    {
+        "club": "Arsenal",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1.png"
+    },
+    {
+        "club": "Milan",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/47.png"
+    },
+    {
+        "club": "Inter",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/44.png"
+    },
+    {
+        "club": "Lazio",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/46.png"
+    },
+    {
+        "club": "Borussia Dortmund",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/22.png"
+    },
+    {
+        "club": "Vissel Kobe",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101146.png"
+    },
+    {
+        "club": "Olympique Lyonnais",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/66.png"
+    },
+    {
+        "club": "Roma",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/52.png"
+    },
+    {
+        "club": "Valencia CF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/461.png"
+    },
+    {
+        "club": "Guangzhou Evergrande Taobao FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111839.png"
+    },
+    {
+        "club": "FC Porto",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/236.png"
+    },
+    {
+        "club": "FC Schalke 04",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/34.png"
+    },
+    {
+        "club": "Beşiktaş JK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/327.png"
+    },
+    {
+        "club": "LA Galaxy",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/697.png"
+    },
+    {
+        "club": "Sporting CP",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/237.png"
+    },
+    {
+        "club": "Real Betis",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/449.png"
+    },
+    {
+        "club": "Olympique de Marseille",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/219.png"
+    },
+    {
+        "club": "RC Celta",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/450.png"
+    },
+    {
+        "club": "Bayer 04 Leverkusen",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/32.png"
+    },
+    {
+        "club": "Real Sociedad",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/457.png"
+    },
+    {
+        "club": "Villarreal CF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/483.png"
+    },
+    {
+        "club": "Sevilla FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/481.png"
+    },
+    {
+        "club": "SL Benfica",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/234.png"
+    },
+    {
+        "club": "AS Saint-Étienne",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1819.png"
+    },
+    {
+        "club": "AS Monaco",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/69.png"
+    },
+    {
+        "club": "Leicester City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/95.png"
+    },
+    {
+        "club": "Atalanta",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/39.png"
+    },
+    {
+        "club": "Grêmio",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1629.png"
+    },
+    {
+        "club": "Atlético Mineiro",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1035.png"
+    },
+    {
+        "club": "RB Leipzig",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112172.png"
+    },
+    {
+        "club": "Ajax",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/245.png"
+    },
+    {
+        "club": "Dalian YiFang FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112378.png"
+    },
+    {
+        "club": "Everton",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/7.png"
+    },
+    {
+        "club": "West Ham United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/19.png"
+    },
+    {
+        "club": "1. FC Köln",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/31.png"
+    },
+    {
+        "club": "TSG 1899 Hoffenheim",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/10029.png"
+    },
+    {
+        "club": "Shanghai SIPG FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112540.png"
+    },
+    {
+        "club": "OGC Nice",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/72.png"
+    },
+    {
+        "club": "Al Nassr",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112139.png"
+    },
+    {
+        "club": "Wolverhampton Wanderers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110.png"
+    },
+    {
+        "club": "Borussia Mönchengladbach",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/23.png"
+    },
+    {
+        "club": "Hertha BSC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/166.png"
+    },
+    {
+        "club": "SV Werder Bremen",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/38.png"
+    },
+    {
+        "club": "Cruzeiro",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/568.png"
+    },
+    {
+        "club": "Athletic Club de Bilbao",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/448.png"
+    },
+    {
+        "club": "Torino",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/54.png"
+    },
+    {
+        "club": "Medipol Başakşehir FK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101014.png"
+    },
+    {
+        "club": "Beijing Sinobo Guoan FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111768.png"
+    },
+    {
+        "club": "Crystal Palace",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1799.png"
+    },
+    {
+        "club": "PFC CSKA Moscow",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/315.png"
+    },
+    {
+        "club": "VfL Wolfsburg",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/175.png"
+    },
+    {
+        "club": "Shakhtar Donetsk",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101059.png"
+    },
+    {
+        "club": "Toronto FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111651.png"
+    },
+    {
+        "club": "Lokomotiv Moscow",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/100765.png"
+    },
+    {
+        "club": "Sassuolo",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111974.png"
+    },
+    {
+        "club": "New York City FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112828.png"
+    },
+    {
+        "club": "Fluminense",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/567.png"
+    },
+    {
+        "club": "PSV",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/247.png"
+    },
+    {
+        "club": "Levante UD",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1853.png"
+    },
+    {
+        "club": "Fulham",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/144.png"
+    },
+    {
+        "club": "Watford",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1795.png"
+    },
+    {
+        "club": "Atlanta United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112885.png"
+    },
+    {
+        "club": "Montpellier HSC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/70.png"
+    },
+    {
+        "club": "Galatasaray SK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/325.png"
+    },
+    {
+        "club": "Fenerbahçe SK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/326.png"
+    },
+    {
+        "club": "SD Eibar",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/467.png"
+    },
+    {
+        "club": "Los Angeles FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112996.png"
+    },
+    {
+        "club": "Sampdoria",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1837.png"
+    },
+    {
+        "club": "Al Hilal",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/605.png"
+    },
+    {
+        "club": "VfB Stuttgart",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/36.png"
+    },
+    {
+        "club": "SC Braga",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1896.png"
+    },
+    {
+        "club": "River Plate",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1876.png"
+    },
+    {
+        "club": "Deportivo Alavés",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/463.png"
+    },
+    {
+        "club": "",
+        "clubLogo": "https://cdn.sofifa.org/flags/52.png"
+    },
+    {
+        "club": "Eintracht Frankfurt",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1824.png"
+    },
+    {
+        "club": "Girona FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110062.png"
+    },
+    {
+        "club": "Guangzhou R&F; FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112429.png"
+    },
+    {
+        "club": "Burnley",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1796.png"
+    },
+    {
+        "club": "Stoke City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1806.png"
+    },
+    {
+        "club": "Southampton",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/17.png"
+    },
+    {
+        "club": "Tianjin Quanjian FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112983.png"
+    },
+    {
+        "club": "Getafe CF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1860.png"
+    },
+    {
+        "club": "Beijing Renhe FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112537.png"
+    },
+    {
+        "club": "Montreal Impact",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111139.png"
+    },
+    {
+        "club": "Chievo Verona",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/192.png"
+    },
+    {
+        "club": "Genoa",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110556.png"
+    },
+    {
+        "club": "Portland Timbers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111140.png"
+    },
+    {
+        "club": "Tigres U.A.N.L.",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1970.png"
+    },
+    {
+        "club": "RCD Espanyol",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/452.png"
+    },
+    {
+        "club": "Hebei China Fortune FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112978.png"
+    },
+    {
+        "club": "Cagliari",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1842.png"
+    },
+    {
+        "club": "Chicago Fire",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/693.png"
+    },
+    {
+        "club": "DC United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/688.png"
+    },
+    {
+        "club": "Sagan Tosu",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/113160.png"
+    },
+    {
+        "club": "Dynamo Kyiv",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101047.png"
+    },
+    {
+        "club": "Santos",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1053.png"
+    },
+    {
+        "club": "Internacional",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1048.png"
+    },
+    {
+        "club": "América FC (Minas Gerais)",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112001.png"
+    },
+    {
+        "club": "Independiente",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110093.png"
+    },
+    {
+        "club": "Boca Juniors",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1877.png"
+    },
+    {
+        "club": "Cruz Azul",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1878.png"
+    },
+    {
+        "club": "1. FSV Mainz 05",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/169.png"
+    },
+    {
+        "club": "Bournemouth",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1943.png"
+    },
+    {
+        "club": "Spartak Moscow",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/100767.png"
+    },
+    {
+        "club": "Racing Club",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101085.png"
+    },
+    {
+        "club": "FC Augsburg",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/100409.png"
+    },
+    {
+        "club": "Fiorentina",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110374.png"
+    },
+    {
+        "club": "FC Nantes",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/71.png"
+    },
+    {
+        "club": "Feyenoord",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/246.png"
+    },
+    {
+        "club": "Club Brugge KV",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/231.png"
+    },
+    {
+        "club": "Brighton & Hove Albion",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1808.png"
+    },
+    {
+        "club": "Al Ahli",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112387.png"
+    },
+    {
+        "club": "Jiangsu Suning FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112162.png"
+    },
+    {
+        "club": "SC Freiburg",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/25.png"
+    },
+    {
+        "club": "PAOK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/393.png"
+    },
+    {
+        "club": "Stade Rennais FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/74.png"
+    },
+    {
+        "club": "Trabzonspor",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/436.png"
+    },
+    {
+        "club": "SPAL",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112791.png"
+    },
+    {
+        "club": "Portimonense SC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/10031.png"
+    },
+    {
+        "club": "Olympiacos CFP",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/280.png"
+    },
+    {
+        "club": "Club Atlético Huracán",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111711.png"
+    },
+    {
+        "club": "Kasimpaşa SK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111339.png"
+    },
+    {
+        "club": "Newcastle United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/13.png"
+    },
+    {
+        "club": "Frosinone",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111657.png"
+    },
+    {
+        "club": "Querétaro",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110150.png"
+    },
+    {
+        "club": "KRC Genk",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/673.png"
+    },
+    {
+        "club": "Hannover 96",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/485.png"
+    },
+    {
+        "club": "Stade Malherbe Caen",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/210.png"
+    },
+    {
+        "club": "Godoy Cruz",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111706.png"
+    },
+    {
+        "club": "Toulouse Football Club",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1809.png"
+    },
+    {
+        "club": "RSC Anderlecht",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/229.png"
+    },
+    {
+        "club": "Huddersfield Town",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1939.png"
+    },
+    {
+        "club": "CD Tondela",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112516.png"
+    },
+    {
+        "club": "Seattle Sounders FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111144.png"
+    },
+    {
+        "club": "Hamburger SV",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/28.png"
+    },
+    {
+        "club": "FC Red Bull Salzburg",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/191.png"
+    },
+    {
+        "club": "Rio Ave FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/744.png"
+    },
+    {
+        "club": "FC Girondins de Bordeaux",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/59.png"
+    },
+    {
+        "club": "Melbourne Victory",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111397.png"
+    },
+    {
+        "club": "Parma",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/50.png"
+    },
+    {
+        "club": "FC Basel 1893",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/896.png"
+    },
+    {
+        "club": "Al Wehda",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112408.png"
+    },
+    {
+        "club": "BSC Young Boys",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/900.png"
+    },
+    {
+        "club": "KAA Gent",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/674.png"
+    },
+    {
+        "club": "Al Ittihad",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/607.png"
+    },
+    {
+        "club": "Standard de Liège",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/232.png"
+    },
+    {
+        "club": "Shanghai Greenland Shenhua FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110955.png"
+    },
+    {
+        "club": "Colo-Colo",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110980.png"
+    },
+    {
+        "club": "Junior FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101101.png"
+    },
+    {
+        "club": "West Bromwich Albion",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/109.png"
+    },
+    {
+        "club": "RC Strasbourg Alsace",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/76.png"
+    },
+    {
+        "club": "Göztepe SK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101026.png"
+    },
+    {
+        "club": "Deportivo Cali",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101102.png"
+    },
+    {
+        "club": "Deportivo Toluca",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1882.png"
+    },
+    {
+        "club": "Bologna",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/189.png"
+    },
+    {
+        "club": "Nagoya Grampus",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112092.png"
+    },
+    {
+        "club": "Amiens SC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1816.png"
+    },
+    {
+        "club": "Changchun Yatai FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111769.png"
+    },
+    {
+        "club": "Club Atlético Lanús",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110395.png"
+    },
+    {
+        "club": "Botafogo",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/517.png"
+    },
+    {
+        "club": "Club América",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1879.png"
+    },
+    {
+        "club": "Udinese",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/55.png"
+    },
+    {
+        "club": "Real Valladolid CF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/462.png"
+    },
+    {
+        "club": "CD Leganés",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/100888.png"
+    },
+    {
+        "club": "Club Atlético Banfield",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110404.png"
+    },
+    {
+        "club": "Celtic",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/78.png"
+    },
+    {
+        "club": "Vitória Guimarães",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1887.png"
+    },
+    {
+        "club": "FC København",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/819.png"
+    },
+    {
+        "club": "UD Las Palmas",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/472.png"
+    },
+    {
+        "club": "Deportivo de La Coruña",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/242.png"
+    },
+    {
+        "club": "Universidad Católica",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110975.png"
+    },
+    {
+        "club": "San Lorenzo de Almagro",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1013.png"
+    },
+    {
+        "club": "Rayo Vallecano",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/480.png"
+    },
+    {
+        "club": "Monterrey",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1032.png"
+    },
+    {
+        "club": "Columbus Crew SC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/687.png"
+    },
+    {
+        "club": "MKE Ankaragücü",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101007.png"
+    },
+    {
+        "club": "Guizhou Hengfeng FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112977.png"
+    },
+    {
+        "club": "Swansea City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1960.png"
+    },
+    {
+        "club": "Tianjin TEDA FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111774.png"
+    },
+    {
+        "club": "Chongqing Dangdai Lifan FC SWM Team",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112165.png"
+    },
+    {
+        "club": "AEK Athens",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/278.png"
+    },
+    {
+        "club": "Al Taawoun",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112393.png"
+    },
+    {
+        "club": "Melbourne City FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112224.png"
+    },
+    {
+        "club": "En Avant de Guingamp",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/62.png"
+    },
+    {
+        "club": "Akhisar Belediyespor",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111340.png"
+    },
+    {
+        "club": "Foggia",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110911.png"
+    },
+    {
+        "club": "LOSC Lille",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/65.png"
+    },
+    {
+        "club": "1. FC Nürnberg",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/171.png"
+    },
+    {
+        "club": "Clube Sport Marítimo",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1893.png"
+    },
+    {
+        "club": "Real Sporting de Gijón",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/459.png"
+    },
+    {
+        "club": "BB Erzurumspor",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/749.png"
+    },
+    {
+        "club": "Shandong Luneng TaiShan FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111724.png"
+    },
+    {
+        "club": "Club Atlético Colón",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110406.png"
+    },
+    {
+        "club": "Bahia",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1598.png"
+    },
+    {
+        "club": "Once Caldas",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101106.png"
+    },
+    {
+        "club": "FC Groningen",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1915.png"
+    },
+    {
+        "club": "Angers SCO",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1530.png"
+    },
+    {
+        "club": "Paraná",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111048.png"
+    },
+    {
+        "club": "Antalyaspor",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/741.png"
+    },
+    {
+        "club": "Minnesota United FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111138.png"
+    },
+    {
+        "club": "Club León",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110781.png"
+    },
+    {
+        "club": "Empoli",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1746.png"
+    },
+    {
+        "club": "VVV-Venlo",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/100651.png"
+    },
+    {
+        "club": "Leeds United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/8.png"
+    },
+    {
+        "club": "Viktoria Plzeň",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110468.png"
+    },
+    {
+        "club": "Alanyaspor",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/113142.png"
+    },
+    {
+        "club": "Atlético Paranaense",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1039.png"
+    },
+    {
+        "club": "Derby County",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/91.png"
+    },
+    {
+        "club": "Kawasaki Frontale",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111730.png"
+    },
+    {
+        "club": "Cardiff City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1961.png"
+    },
+    {
+        "club": "Aston Villa",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/2.png"
+    },
+    {
+        "club": "Guadalajara",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1880.png"
+    },
+    {
+        "club": "Dijon FCO",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110569.png"
+    },
+    {
+        "club": "Santos Laguna",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110144.png"
+    },
+    {
+        "club": "Málaga CF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/573.png"
+    },
+    {
+        "club": "Vitória",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1719.png"
+    },
+    {
+        "club": "Çaykur Rizespor",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101037.png"
+    },
+    {
+        "club": "U.N.A.M.",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1881.png"
+    },
+    {
+        "club": "Nottingham Forest",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/14.png"
+    },
+    {
+        "club": "Royal Antwerp FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/230.png"
+    },
+    {
+        "club": "Club Tijuana",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111678.png"
+    },
+    {
+        "club": "Sport Club do Recife",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111057.png"
+    },
+    {
+        "club": "Real Salt Lake",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111065.png"
+    },
+    {
+        "club": "AZ Alkmaar",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1906.png"
+    },
+    {
+        "club": "SK Slavia Praha",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/266.png"
+    },
+    {
+        "club": "Willem II",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1907.png"
+    },
+    {
+        "club": "Middlesbrough",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/12.png"
+    },
+    {
+        "club": "Dinamo Zagreb",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/211.png"
+    },
+    {
+        "club": "Club Atlas",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101114.png"
+    },
+    {
+        "club": "Granada CF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110832.png"
+    },
+    {
+        "club": "Sydney FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111400.png"
+    },
+    {
+        "club": "Sporting Kansas City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/696.png"
+    },
+    {
+        "club": "SV Zulte-Waregem",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/15005.png"
+    },
+    {
+        "club": "Philadelphia Union",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112134.png"
+    },
+    {
+        "club": "Real Oviedo",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110827.png"
+    },
+    {
+        "club": "Pachuca",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110147.png"
+    },
+    {
+        "club": "Boavista FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1898.png"
+    },
+    {
+        "club": "Atiker Konyaspor",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101033.png"
+    },
+    {
+        "club": "Kaizer Chiefs",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110929.png"
+    },
+    {
+        "club": "GD Chaves",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/518.png"
+    },
+    {
+        "club": "Palermo",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1843.png"
+    },
+    {
+        "club": "Atlético Nacional",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101100.png"
+    },
+    {
+        "club": "Puebla FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110152.png"
+    },
+    {
+        "club": "Perth Glory",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111399.png"
+    },
+    {
+        "club": "Panathinaikos FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1884.png"
+    },
+    {
+        "club": "FC Sion",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110770.png"
+    },
+    {
+        "club": "Vitória de Setúbal",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/665.png"
+    },
+    {
+        "club": "New York Red Bulls",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/689.png"
+    },
+    {
+        "club": "Al Shabab",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111674.png"
+    },
+    {
+        "club": "Monarcas Morelia",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1028.png"
+    },
+    {
+        "club": "Albacete BP",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1854.png"
+    },
+    {
+        "club": "Rangers FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/86.png"
+    },
+    {
+        "club": "Sparta Praha",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/267.png"
+    },
+    {
+        "club": "Legia Warszawa",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1871.png"
+    },
+    {
+        "club": "Urawa Red Diamonds",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111575.png"
+    },
+    {
+        "club": "Rosario Central",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110580.png"
+    },
+    {
+        "club": "Stade de Reims",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/379.png"
+    },
+    {
+        "club": "ADO Den Haag",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/650.png"
+    },
+    {
+        "club": "Chapecoense",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112476.png"
+    },
+    {
+        "club": "FC Midtjylland",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1516.png"
+    },
+    {
+        "club": "San Jose Earthquakes",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111928.png"
+    },
+    {
+        "club": "Belgrano de Córdoba",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111022.png"
+    },
+    {
+        "club": "Brescia",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/190.png"
+    },
+    {
+        "club": "Kashima Antlers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101147.png"
+    },
+    {
+        "club": "CD Everton de Viña del Mar",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112584.png"
+    },
+    {
+        "club": "Fortuna Düsseldorf",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110636.png"
+    },
+    {
+        "club": "SD Huesca",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110839.png"
+    },
+    {
+        "club": "Preston North End",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1801.png"
+    },
+    {
+        "club": "Club Atlético Talleres",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112670.png"
+    },
+    {
+        "club": "Benevento",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112026.png"
+    },
+    {
+        "club": "Vitesse",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1909.png"
+    },
+    {
+        "club": "Gimnasia y Esgrima La Plata",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101084.png"
+    },
+    {
+        "club": "Houston Dynamo",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/698.png"
+    },
+    {
+        "club": "Club Necaxa",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101121.png"
+    },
+    {
+        "club": "Norwich City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1792.png"
+    },
+    {
+        "club": "Holstein Kiel",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/576.png"
+    },
+    {
+        "club": "Ettifaq FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112096.png"
+    },
+    {
+        "club": "Kayserispor",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101020.png"
+    },
+    {
+        "club": "1. FC Heidenheim 1846",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111235.png"
+    },
+    {
+        "club": "Brentford",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1925.png"
+    },
+    {
+        "club": "Yeni Malatyaspor",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/113259.png"
+    },
+    {
+        "club": "Lobos BUAP",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111035.png"
+    },
+    {
+        "club": "Bursaspor",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/742.png"
+    },
+    {
+        "club": "Ceará Sporting Club",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111059.png"
+    },
+    {
+        "club": "Sheffield United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1794.png"
+    },
+    {
+        "club": "FC Ingolstadt 04",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111239.png"
+    },
+    {
+        "club": "Estudiantes de La Plata",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101083.png"
+    },
+    {
+        "club": "AIK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/433.png"
+    },
+    {
+        "club": "Queens Park Rangers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/15.png"
+    },
+    {
+        "club": "Suwon Samsung Bluewings",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/983.png"
+    },
+    {
+        "club": "Heart of Midlothian",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/80.png"
+    },
+    {
+        "club": "Reading",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1793.png"
+    },
+    {
+        "club": "FC Dallas",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/695.png"
+    },
+    {
+        "club": "Heracles Almelo",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/100634.png"
+    },
+    {
+        "club": "Venezia FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/205.png"
+    },
+    {
+        "club": "CD Lugo",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110831.png"
+    },
+    {
+        "club": "Henan Jianye FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111779.png"
+    },
+    {
+        "club": "Orlando City SC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112606.png"
+    },
+    {
+        "club": "CA Osasuna",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/479.png"
+    },
+    {
+        "club": "NAC Breda",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1904.png"
+    },
+    {
+        "club": "Livorno",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1844.png"
+    },
+    {
+        "club": "Universidad de Chile",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/15029.png"
+    },
+    {
+        "club": "Brøndby IF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/269.png"
+    },
+    {
+        "club": "Aberdeen",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/77.png"
+    },
+    {
+        "club": "Defensa y Justicia",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111710.png"
+    },
+    {
+        "club": "Atlético Tucumán",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111708.png"
+    },
+    {
+        "club": "Blackburn Rovers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/3.png"
+    },
+    {
+        "club": "SV Darmstadt 98",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110502.png"
+    },
+    {
+        "club": "Moreirense FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1900.png"
+    },
+    {
+        "club": "Sanfrecce Hiroshima",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/113157.png"
+    },
+    {
+        "club": "CD Numancia",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/477.png"
+    },
+    {
+        "club": "KV Oostende",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/682.png"
+    },
+    {
+        "club": "FC Utrecht",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1903.png"
+    },
+    {
+        "club": "Vancouver Whitecaps FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101112.png"
+    },
+    {
+        "club": "Odense Boldklub",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/272.png"
+    },
+    {
+        "club": "SC Heerenveen",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1913.png"
+    },
+    {
+        "club": "Racing Club de Lens",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/64.png"
+    },
+    {
+        "club": "Independiente Santa Fe",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101104.png"
+    },
+    {
+        "club": "Sporting de Charleroi",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/670.png"
+    },
+    {
+        "club": "Millonarios FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101105.png"
+    },
+    {
+        "club": "Sheffield Wednesday",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1807.png"
+    },
+    {
+        "club": "Perugia",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/199.png"
+    },
+    {
+        "club": "Daegu FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/2056.png"
+    },
+    {
+        "club": "Vélez Sarsfield",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101088.png"
+    },
+    {
+        "club": "Grasshopper Club Zürich",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/322.png"
+    },
+    {
+        "club": "Sivasspor",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101041.png"
+    },
+    {
+        "club": "Nîmes Olympique",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/224.png"
+    },
+    {
+        "club": "Rosenborg BK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/298.png"
+    },
+    {
+        "club": "SK Sturm Graz",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/209.png"
+    },
+    {
+        "club": "FC Metz",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/68.png"
+    },
+    {
+        "club": "CD Universidad de Concepción",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112534.png"
+    },
+    {
+        "club": "Hellas Verona",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/206.png"
+    },
+    {
+        "club": "Brisbane Roar",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111395.png"
+    },
+    {
+        "club": "CD Feirense",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/10019.png"
+    },
+    {
+        "club": "Hull City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1952.png"
+    },
+    {
+        "club": "Waasland-Beveren",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110913.png"
+    },
+    {
+        "club": "Neuchâtel Xamax",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/435.png"
+    },
+    {
+        "club": "Real Zaragoza",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/244.png"
+    },
+    {
+        "club": "CD Aves",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/666.png"
+    },
+    {
+        "club": "Millwall",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/97.png"
+    },
+    {
+        "club": "Unión de Santa Fe",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111716.png"
+    },
+    {
+        "club": "KAS Eupen",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/2013.png"
+    },
+    {
+        "club": "Cádiz CF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1968.png"
+    },
+    {
+        "club": "FC Tokyo",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101150.png"
+    },
+    {
+        "club": "CD Tenerife",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/260.png"
+    },
+    {
+        "club": "1. FC Union Berlin",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1831.png"
+    },
+    {
+        "club": "Al Fayha",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/113057.png"
+    },
+    {
+        "club": "AJ Auxerre",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/57.png"
+    },
+    {
+        "club": "Patriotas Boyacá FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112527.png"
+    },
+    {
+        "club": "Molde FK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/417.png"
+    },
+    {
+        "club": "Bristol City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1919.png"
+    },
+    {
+        "club": "CD Nacional",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1891.png"
+    },
+    {
+        "club": "Sporting Lokeren",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/2007.png"
+    },
+    {
+        "club": "FC St. Pauli",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110329.png"
+    },
+    {
+        "club": "Deportes Iquique",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112531.png"
+    },
+    {
+        "club": "Al Qadisiyah",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112391.png"
+    },
+    {
+        "club": "Atlético Bucaramanga",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112992.png"
+    },
+    {
+        "club": "Club Atlético Tigre",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111715.png"
+    },
+    {
+        "club": "FK Austria Wien",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/256.png"
+    },
+    {
+        "club": "Patronato",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110581.png"
+    },
+    {
+        "club": "Malmö FF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/320.png"
+    },
+    {
+        "club": "Kashiwa Reysol",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101145.png"
+    },
+    {
+        "club": "US Cremonese",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111434.png"
+    },
+    {
+        "club": "VfL Bochum 1848",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/160.png"
+    },
+    {
+        "club": "SK Rapid Wien",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/254.png"
+    },
+    {
+        "club": "KSV Cercle Brugge",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1750.png"
+    },
+    {
+        "club": "Rionegro Águilas",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112578.png"
+    },
+    {
+        "club": "Gimnàstic de Tarragona",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/15019.png"
+    },
+    {
+        "club": "Lecce",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/347.png"
+    },
+    {
+        "club": "Santa Clara",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1438.png"
+    },
+    {
+        "club": "BK Häcken",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/711.png"
+    },
+    {
+        "club": "New England Revolution",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/691.png"
+    },
+    {
+        "club": "Orlando Pirates",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110930.png"
+    },
+    {
+        "club": "Atlético Huila",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112528.png"
+    },
+    {
+        "club": "Western Sydney Wanderers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112427.png"
+    },
+    {
+        "club": "Kalmar FF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1439.png"
+    },
+    {
+        "club": "Independiente Medellín",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101103.png"
+    },
+    {
+        "club": "Fortuna Sittard",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/634.png"
+    },
+    {
+        "club": "Lech Poznań",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/873.png"
+    },
+    {
+        "club": "Djurgårdens IF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/710.png"
+    },
+    {
+        "club": "CF Reus Deportiu",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110854.png"
+    },
+    {
+        "club": "SK Brann",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/919.png"
+    },
+    {
+        "club": "Ulsan Hyundai FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1473.png"
+    },
+    {
+        "club": "Sint-Truidense VV",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/680.png"
+    },
+    {
+        "club": "Carpi",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112409.png"
+    },
+    {
+        "club": "Al Fateh",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112390.png"
+    },
+    {
+        "club": "Royal Excel Mouscron",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111560.png"
+    },
+    {
+        "club": "AC Ajaccio",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/614.png"
+    },
+    {
+        "club": "PEC Zwolle",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1914.png"
+    },
+    {
+        "club": "Sunderland",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/106.png"
+    },
+    {
+        "club": "Club Atlético Aldosivi",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111707.png"
+    },
+    {
+        "club": "US Salernitana 1919",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110373.png"
+    },
+    {
+        "club": "FC Lorient",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/217.png"
+    },
+    {
+        "club": "Argentinos Juniors",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111019.png"
+    },
+    {
+        "club": "AD Alcorcón",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/100831.png"
+    },
+    {
+        "club": "Crotone",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110734.png"
+    },
+    {
+        "club": "Excelsior",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1971.png"
+    },
+    {
+        "club": "KV Kortrijk",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/100081.png"
+    },
+    {
+        "club": "IFK Norrköping",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/702.png"
+    },
+    {
+        "club": "Adelaide United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111393.png"
+    },
+    {
+        "club": "FC St. Gallen",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/898.png"
+    },
+    {
+        "club": "Tiburones Rojos de Veracruz",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110145.png"
+    },
+    {
+        "club": "CD Palestino",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111328.png"
+    },
+    {
+        "club": "Jeju United FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1478.png"
+    },
+    {
+        "club": "Deportes Tolima",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111722.png"
+    },
+    {
+        "club": "Jeonbuk Hyundai Motors",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1477.png"
+    },
+    {
+        "club": "Birmingham City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/88.png"
+    },
+    {
+        "club": "América de Cali",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101099.png"
+    },
+    {
+        "club": "La Equidad",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112523.png"
+    },
+    {
+        "club": "Spezia",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110741.png"
+    },
+    {
+        "club": "Aalborg BK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/820.png"
+    },
+    {
+        "club": "Le Havre AC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1738.png"
+    },
+    {
+        "club": "Górnik Zabrze",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/420.png"
+    },
+    {
+        "club": "Central Coast Mariners",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111396.png"
+    },
+    {
+        "club": "Wigan Athletic",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1917.png"
+    },
+    {
+        "club": "Jagiellonia Białystok",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110745.png"
+    },
+    {
+        "club": "Cittadella",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111993.png"
+    },
+    {
+        "club": "Hibernian",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/81.png"
+    },
+    {
+        "club": "FC Lugano",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/10032.png"
+    },
+    {
+        "club": "San Martín de San Juan",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111713.png"
+    },
+    {
+        "club": "Strømsgodset IF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/922.png"
+    },
+    {
+        "club": "Júbilo Iwata",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101144.png"
+    },
+    {
+        "club": "Newell's Old Boys",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110396.png"
+    },
+    {
+        "club": "Al Faisaly",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112389.png"
+    },
+    {
+        "club": "Colorado Rapids",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/694.png"
+    },
+    {
+        "club": "IF Elfsborg",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/700.png"
+    },
+    {
+        "club": "SV Sandhausen",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110178.png"
+    },
+    {
+        "club": "Al Batin",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112990.png"
+    },
+    {
+        "club": "Stade Brestois 29",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/378.png"
+    },
+    {
+        "club": "UD Almería",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1861.png"
+    },
+    {
+        "club": "Gyeongnam FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111588.png"
+    },
+    {
+        "club": "Yokohama F. Marinos",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101151.png"
+    },
+    {
+        "club": "Kilmarnock",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/82.png"
+    },
+    {
+        "club": "Pescara",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/200.png"
+    },
+    {
+        "club": "Newcastle Jets",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111398.png"
+    },
+    {
+        "club": "Córdoba CF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1867.png"
+    },
+    {
+        "club": "RCD Mallorca",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/453.png"
+    },
+    {
+        "club": "Hammarby IF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/708.png"
+    },
+    {
+        "club": "Cerezo Osaka",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101148.png"
+    },
+    {
+        "club": "KFC Uerdingen 05",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/167.png"
+    },
+    {
+        "club": "Shimizu S-Pulse",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101149.png"
+    },
+    {
+        "club": "MSV Duisburg",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1825.png"
+    },
+    {
+        "club": "Os Belenenses",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1889.png"
+    },
+    {
+        "club": "DSC Arminia Bielefeld",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/159.png"
+    },
+    {
+        "club": "Ipswich Town",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/94.png"
+    },
+    {
+        "club": "FC Seoul",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/982.png"
+    },
+    {
+        "club": "Lechia Gdańsk",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111091.png"
+    },
+    {
+        "club": "Gamba Osaka",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112093.png"
+    },
+    {
+        "club": "CF Rayo Majadahonda",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110066.png"
+    },
+    {
+        "club": "LASK Linz",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/252.png"
+    },
+    {
+        "club": "Bolton Wanderers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/4.png"
+    },
+    {
+        "club": "Al Raed",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112392.png"
+    },
+    {
+        "club": "Extremadura UD",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/469.png"
+    },
+    {
+        "club": "SC Paderborn 07",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/10030.png"
+    },
+    {
+        "club": "Wellington Phoenix",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111766.png"
+    },
+    {
+        "club": "Unión Española",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110977.png"
+    },
+    {
+        "club": "Alianza Petrolera",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112579.png"
+    },
+    {
+        "club": "Cracovia",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110747.png"
+    },
+    {
+        "club": "Gangwon FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112115.png"
+    },
+    {
+        "club": "Elche CF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/468.png"
+    },
+    {
+        "club": "ESTAC Troyes",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/294.png"
+    },
+    {
+        "club": "AS Béziers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/113948.png"
+    },
+    {
+        "club": "La Berrichonne de Châteauroux",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/212.png"
+    },
+    {
+        "club": "Clermont Foot 63",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1815.png"
+    },
+    {
+        "club": "1. FC Magdeburg",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110588.png"
+    },
+    {
+        "club": "Pohang Steelers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1474.png"
+    },
+    {
+        "club": "Örebro SK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/705.png"
+    },
+    {
+        "club": "Arka Gdynia",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111082.png"
+    },
+    {
+        "club": "SG Dynamo Dresden",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/503.png"
+    },
+    {
+        "club": "SpVgg Greuther Fürth",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/165.png"
+    },
+    {
+        "club": "CD Huachipato",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111327.png"
+    },
+    {
+        "club": "Wisła Kraków",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1873.png"
+    },
+    {
+        "club": "Stabæk Fotball",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/917.png"
+    },
+    {
+        "club": "Eintracht Braunschweig",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110500.png"
+    },
+    {
+        "club": "Valenciennes FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110456.png"
+    },
+    {
+        "club": "FC Thun",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1715.png"
+    },
+    {
+        "club": "San Luis de Quillota",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112668.png"
+    },
+    {
+        "club": "SSV Jahn Regensburg",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/543.png"
+    },
+    {
+        "club": "Cosenza",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112168.png"
+    },
+    {
+        "club": "FC Nordsjælland",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1788.png"
+    },
+    {
+        "club": "FC Erzgebirge Aue",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/506.png"
+    },
+    {
+        "club": "Jeonnam Dragons",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1475.png"
+    },
+    {
+        "club": "Wolfsberger AC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111822.png"
+    },
+    {
+        "club": "Chamois Niortais Football Club",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1813.png"
+    },
+    {
+        "club": "Club Deportes Temuco",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112709.png"
+    },
+    {
+        "club": "AS Nancy Lorraine",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1823.png"
+    },
+    {
+        "club": "Red Star FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111273.png"
+    },
+    {
+        "club": "Al Hazem",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/113222.png"
+    },
+    {
+        "club": "Pogoń Szczecin",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110746.png"
+    },
+    {
+        "club": "Charlton Athletic",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/89.png"
+    },
+    {
+        "club": "Grenoble Foot 38",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1805.png"
+    },
+    {
+        "club": "FC Hansa Rostock",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/27.png"
+    },
+    {
+        "club": "San Martin de Tucumán",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111714.png"
+    },
+    {
+        "club": "Incheon United FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110765.png"
+    },
+    {
+        "club": "Śląsk Wrocław",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111092.png"
+    },
+    {
+        "club": "GFC Ajaccio",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110316.png"
+    },
+    {
+        "club": "1. FC Kaiserslautern",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/29.png"
+    },
+    {
+        "club": "Deportivo Pasto",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111723.png"
+    },
+    {
+        "club": "Lincoln City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/149.png"
+    },
+    {
+        "club": "Motherwell",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/83.png"
+    },
+    {
+        "club": "Rotherham United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1797.png"
+    },
+    {
+        "club": "Burton Albion",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/15015.png"
+    },
+    {
+        "club": "Wisła Płock",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1569.png"
+    },
+    {
+        "club": "FC Wacker Innsbruck",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/2045.png"
+    },
+    {
+        "club": "Peterborough United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1938.png"
+    },
+    {
+        "club": "Ascoli",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1847.png"
+    },
+    {
+        "club": "FC Zürich",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/894.png"
+    },
+    {
+        "club": "Fleetwood Town",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112260.png"
+    },
+    {
+        "club": "Padova",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110912.png"
+    },
+    {
+        "club": "FC Sochaux-Montbéliard",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/226.png"
+    },
+    {
+        "club": "SV Wehen Wiesbaden",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/492.png"
+    },
+    {
+        "club": "Unión La Calera",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112535.png"
+    },
+    {
+        "club": "Scunthorpe United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1949.png"
+    },
+    {
+        "club": "CD O'Higgins",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112116.png"
+    },
+    {
+        "club": "CD Antofagasta",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112533.png"
+    },
+    {
+        "club": "Plymouth Argyle",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1929.png"
+    },
+    {
+        "club": "Aarhus GF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/271.png"
+    },
+    {
+        "club": "Lillestrøm SK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/299.png"
+    },
+    {
+        "club": "Karlsruher SC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1832.png"
+    },
+    {
+        "club": "GIF Sundsvall",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1596.png"
+    },
+    {
+        "club": "FC Emmen",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/100628.png"
+    },
+    {
+        "club": "Barnsley",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1932.png"
+    },
+    {
+        "club": "Audax Italiano",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/101097.png"
+    },
+    {
+        "club": "V-Varen Nagasaki",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112448.png"
+    },
+    {
+        "club": "Paris FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111817.png"
+    },
+    {
+        "club": "SpVgg Unterhaching",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/172.png"
+    },
+    {
+        "club": "Hobro IK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112425.png"
+    },
+    {
+        "club": "De Graafschap",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/635.png"
+    },
+    {
+        "club": "Hokkaido Consadole Sapporo",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112444.png"
+    },
+    {
+        "club": "Tromsø IL",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/418.png"
+    },
+    {
+        "club": "FC Luzern",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/897.png"
+    },
+    {
+        "club": "FK Haugesund",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1463.png"
+    },
+    {
+        "club": "Zagłębie Lubin",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110749.png"
+    },
+    {
+        "club": "VfR Aalen",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/550.png"
+    },
+    {
+        "club": "Dundalk",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/837.png"
+    },
+    {
+        "club": "Oxford United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1951.png"
+    },
+    {
+        "club": "Piast Gliwice",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111086.png"
+    },
+    {
+        "club": "Ohod Club",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/113219.png"
+    },
+    {
+        "club": "Östersunds FK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/113173.png"
+    },
+    {
+        "club": "Vegalta Sendai",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112836.png"
+    },
+    {
+        "club": "Crawley Town",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110890.png"
+    },
+    {
+        "club": "FC Admira Wacker Mödling",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111821.png"
+    },
+    {
+        "club": "Vålerenga Fotball",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/920.png"
+    },
+    {
+        "club": "Dundee FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/180.png"
+    },
+    {
+        "club": "Portsmouth",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1790.png"
+    },
+    {
+        "club": "Envigado FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112526.png"
+    },
+    {
+        "club": "Miedź Legnica",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112505.png"
+    },
+    {
+        "club": "Odds BK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1456.png"
+    },
+    {
+        "club": "SC Fortuna Köln",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110169.png"
+    },
+    {
+        "club": "US Orléans Loiret Football",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112276.png"
+    },
+    {
+        "club": "Sarpsborg 08 FF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112199.png"
+    },
+    {
+        "club": "Jaguares de Córdoba",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112903.png"
+    },
+    {
+        "club": "Bradford City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1804.png"
+    },
+    {
+        "club": "Accrington Stanley",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110313.png"
+    },
+    {
+        "club": "St. Johnstone FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/100804.png"
+    },
+    {
+        "club": "Boyacá Chicó FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112019.png"
+    },
+    {
+        "club": "Luton Town",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1923.png"
+    },
+    {
+        "club": "SV Mattersburg",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1785.png"
+    },
+    {
+        "club": "Kristiansund BK",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/113459.png"
+    },
+    {
+        "club": "Sangju Sangmu FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/2055.png"
+    },
+    {
+        "club": "Rochdale",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1955.png"
+    },
+    {
+        "club": "Walsall",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1803.png"
+    },
+    {
+        "club": "Korona Kielce",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111083.png"
+    },
+    {
+        "club": "Shonan Bellmare",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/113161.png"
+    },
+    {
+        "club": "FC Würzburger Kickers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110197.png"
+    },
+    {
+        "club": "FSV Zwickau",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110592.png"
+    },
+    {
+        "club": "St. Mirren",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/100805.png"
+    },
+    {
+        "club": "AC Horsens",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1446.png"
+    },
+    {
+        "club": "Esbjerg fB",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1445.png"
+    },
+    {
+        "club": "HJK Helsinki",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/100325.png"
+    },
+    {
+        "club": "Southend United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1954.png"
+    },
+    {
+        "club": "Bristol Rovers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1962.png"
+    },
+    {
+        "club": "Hamilton Academical FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/184.png"
+    },
+    {
+        "club": "TSV 1860 München",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/33.png"
+    },
+    {
+        "club": "Curicó Unido",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112655.png"
+    },
+    {
+        "club": "SCR Altach",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/15009.png"
+    },
+    {
+        "club": "Ranheim Fotball",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112200.png"
+    },
+    {
+        "club": "Stevenage",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/361.png"
+    },
+    {
+        "club": "SG Sonnenhof Großaspach",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111379.png"
+    },
+    {
+        "club": "Oldham Athletic",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1920.png"
+    },
+    {
+        "club": "Milton Keynes Dons",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1798.png"
+    },
+    {
+        "club": "FK Bodø/Glimt",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/918.png"
+    },
+    {
+        "club": "SC Preußen Münster",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/531.png"
+    },
+    {
+        "club": "Wycombe Wanderers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1933.png"
+    },
+    {
+        "club": "Vejle Boldklub",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/822.png"
+    },
+    {
+        "club": "Bury",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1945.png"
+    },
+    {
+        "club": "Randers FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1786.png"
+    },
+    {
+        "club": "VfL Osnabrück",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/487.png"
+    },
+    {
+        "club": "SønderjyskE",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1447.png"
+    },
+    {
+        "club": "IFK Göteborg",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/319.png"
+    },
+    {
+        "club": "Mansfield Town",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1940.png"
+    },
+    {
+        "club": "Coventry City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1800.png"
+    },
+    {
+        "club": "Waterford FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/753.png"
+    },
+    {
+        "club": "Shrewsbury",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/127.png"
+    },
+    {
+        "club": "IK Start",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1524.png"
+    },
+    {
+        "club": "Gillingham",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1802.png"
+    },
+    {
+        "club": "FC Energie Cottbus",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/162.png"
+    },
+    {
+        "club": "FC Carl Zeiss Jena",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110591.png"
+    },
+    {
+        "club": "Hallescher FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110482.png"
+    },
+    {
+        "club": "SV Meppen",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110597.png"
+    },
+    {
+        "club": "AFC Wimbledon",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112259.png"
+    },
+    {
+        "club": "Blackpool",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1926.png"
+    },
+    {
+        "club": "Doncaster Rovers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/142.png"
+    },
+    {
+        "club": "Sandefjord Fotball",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1757.png"
+    },
+    {
+        "club": "VfL Sportfreunde Lotte",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/110700.png"
+    },
+    {
+        "club": "Cheltenham Town",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1936.png"
+    },
+    {
+        "club": "IK Sirius",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/113458.png"
+    },
+    {
+        "club": "Vendsyssel FF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111660.png"
+    },
+    {
+        "club": "Swindon Town",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1934.png"
+    },
+    {
+        "club": "Notts County",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1937.png"
+    },
+    {
+        "club": "SKN St. Pölten",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112075.png"
+    },
+    {
+        "club": "Exeter City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/143.png"
+    },
+    {
+        "club": "Northampton Town",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1930.png"
+    },
+    {
+        "club": "Shamrock Rovers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/306.png"
+    },
+    {
+        "club": "Colchester United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1935.png"
+    },
+    {
+        "club": "Livingston FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/621.png"
+    },
+    {
+        "club": "TSV Hartberg",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/2017.png"
+    },
+    {
+        "club": "Tranmere Rovers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/15048.png"
+    },
+    {
+        "club": "Cambridge United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1944.png"
+    },
+    {
+        "club": "Grimsby Town",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/92.png"
+    },
+    {
+        "club": "Port Vale",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1928.png"
+    },
+    {
+        "club": "Itagüí Leones FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112970.png"
+    },
+    {
+        "club": "Forest Green Rovers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/561.png"
+    },
+    {
+        "club": "Dalkurd FF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/113876.png"
+    },
+    {
+        "club": "Zagłębie Sosnowiec",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111089.png"
+    },
+    {
+        "club": "Carlisle United",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1480.png"
+    },
+    {
+        "club": "Trelleborgs FF",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/703.png"
+    },
+    {
+        "club": "St. Patrick's Athletic",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/423.png"
+    },
+    {
+        "club": "Morecambe",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/357.png"
+    },
+    {
+        "club": "Cork City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/422.png"
+    },
+    {
+        "club": "IF Brommapojkarna",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111705.png"
+    },
+    {
+        "club": "Crewe Alexandra",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/121.png"
+    },
+    {
+        "club": "Yeovil Town",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/346.png"
+    },
+    {
+        "club": "Bohemian FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/305.png"
+    },
+    {
+        "club": "Macclesfield Town",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/1959.png"
+    },
+    {
+        "club": "Newport County",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/112254.png"
+    },
+    {
+        "club": "Sligo Rovers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/563.png"
+    },
+    {
+        "club": "Derry City",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/445.png"
+    },
+    {
+        "club": "Limerick FC",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/111285.png"
+    },
+    {
+        "club": "Bray Wanderers",
+        "clubLogo": "https://cdn.sofifa.org/teams/2/light/838.png"
+    }
+]
