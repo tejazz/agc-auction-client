@@ -94,7 +94,7 @@
 }
 
 .playerContainer_currentPlayer_data {
-    
+
 }
 
 .nextContainer {
@@ -132,10 +132,14 @@
     padding: 10px;
 }
 
-.clubListContainer {
+.clubContainer {
     width: 90%;
     display: block!important;
     margin: 0 auto!important;
+    padding-bottom: 100px;
+}
+
+.clubListContainer {
 }
 
 .clubListContainer_item {
