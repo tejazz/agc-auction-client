@@ -40,13 +40,21 @@ class Home extends Component {
 
     renderParticipantClubs(club) {
         return (
-            <div>
+            <Col xs={6} md={6} lg={6} key={club.club} className={local.clubListContainer_item}>
                 <div>
                     Club: {club.club}
                 </div>
                 <div>
                     Budget: {club.clubBudget}
                 </div>
+            </Col>
+        );
+    }
+
+    renderNextlist(player) {
+        return (
+            <div key={player.name} className={local.nextContainer_item}>
+                {player.name}
             </div>
         );
     }
@@ -64,21 +72,30 @@ class Home extends Component {
             <Grid fluid>
                 <Row>
                     <Col xs={12} lg={6} md={6}>
-                        Player Section
-                        <input type="text" onChange={(e) => this.valueChange(e, "CurrentPrice")} value={this.props.localPlayerData.currentPlayerValue} />
-                        <select onChange={(e) => this.valueChange(e, "ClubChange")}>
-                            {this.props.clubs.map((club) => {
-                                return (<option value={club.club}>{club.club}</option>)
-                            })}
-                        </select>
-                        <button onClick={() => this.updatePlayer()}>Update Player</button>
+                        <div className={local.playerContainer}>
+                            Player Section
+                            <input type="text" onChange={(e) => this.valueChange(e, "CurrentPrice")} value={this.props.localPlayerData.currentPlayerValue} />
+                            <select onChange={(e) => this.valueChange(e, "ClubChange")}>
+                                {this.props.clubs.map((club) => {
+                                    return (<option key={club.club} value={club.club}>{club.club}</option>)
+                                })}
+                            </select>
+                            <button onClick={() => this.updatePlayer()}>Update Player</button>
+                            <Row className={local.nextContainer}>
+                                {this.props.players.nextPlayers.map((player) => this.renderNextlist(player))}
+                            </Row>
+                        </div>
                     </Col>
                     <Col xs={12} lg={6} md={6}>
-                        Club Section
-                        {this.props.clubs.map((club) => this.renderParticipantClubs(club))}
+                        <div className={local.clubContainer}>
+                            Club Section
+                            <Row className={local.clubListContainer}>
+                                {this.props.clubs.map((club) => this.renderParticipantClubs(club))}
+                            </Row>
+                        </div>
                     </Col>
                 </Row>
-            </Grid>
+            </Grid >
         );
     }
 }
