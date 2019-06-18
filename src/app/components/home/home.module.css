@@ -1,16 +1,168 @@
-.clubListContainer {
+.mainHeader {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+
+.playerContainer {
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+.playerContainer_title {
+    margin: 0;
+    color: cadetblue;
+}
+
+.playerContainer_confirmbtn {
+    color: white;
+    background: cadetblue;
+    border: 2px solid white;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 10px 0;
+    width: 200px;
+}
+
+.playerContainer_subtitle {
+    margin: 0;
+    color: cadetblue;
+    text-transform: uppercase;
+}
+
+.playerContainer_bidInput_label {
 
 }
 
-.clubListContainer_item {
+.playerContainer_bidInput {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 12px;
+    border: 2px solid cadetblue;
+    background: transparent;
+    color: cadetblue;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 200px;
+}
+
+.playerContainer_clubSelect {
+    margin: 10px 0;
+    border: 1px solid cadetblue;
+    padding: 10px 0px;
+    text-align: center;
+    color: cadetblue;
+    font-weight: bold;
+    width: 200px;
+    text-indent: 6px;
+}
+
+.playerContainer_currentPlayer {
+    color: cadetblue;
+}
+
+.playerContainer_currentPlayer_name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.playerContainer_currentPlayer_image {
+    position: relative;
+}
+
+.playerContainer_currentPlayer_photo {
+    width: 25%;
+    position: relative;
+    z-index: 4;
+}
+
+.playerContainer_currentPlayer_club {
+    width: 24%;
+    position: absolute;
+    left: 37%;
+    right: 0;
+    z-index: 2;
+}
+
+.playerContainer_currentPlayer_data {
     
 }
 
 .nextContainer {
-    display: flex;
-    width: 100%;
+    margin: 10px auto!important;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
 }
 
 .nextContainer_item {
+    width: 18%;
+    float: left;
+    position: relative;
+}
+
+.nextContainer_item_playerphoto {
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+
+.nextContainer_item_clubphoto {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+.clubContainer_title {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.clubListContainer {
+    width: 90%;
+    display: block!important;
+    margin: 0 auto!important;
+}
+
+.clubListContainer_item {
+    padding: 0!important;
+    margin: 0;
+    float: left;
+    border: 1px solid cadetblue;
+}
+
+.clubListContainer_item_clubtile {
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+}
+
+.clubListContainer_item_photo {
     width: 20%;
+    margin: 20px;
+}
+
+.clubListContainer_item_data {
+    margin-left: 15px;
+    margin-right: 10px;
+    color: cadetblue;
+    font-size: 14px;
+}
+
+.clubListContainer_item_datadetail {
+    margin: 0;
 }

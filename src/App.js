@@ -5,11 +5,9 @@ import Home from './app/components/home/home';
 
 function App() {
   return (
-    <div>
-      AGC Auction Central
-
+    <div className="main-container">
       <Switch>
-        <Route exact path="/" render={(props) => <Home {...props}/>} />
+        <Route exact path="/" render={(props) => <Home {...props} />} />
         <Redirect from="/**" to="/" />
       </Switch>
     </div>

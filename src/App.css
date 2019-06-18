@@ -31,3 +31,9 @@
     transform: rotate(360deg);
   }
 }
+
+.main-container {
+  background-image: url('./assets/images/main-bg.jpeg');
+  background-size: cover;
+  height: 100vh;
+}

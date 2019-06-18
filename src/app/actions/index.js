@@ -42,14 +42,14 @@ export function updateClubData(currentPlayer, clubData) {
     };
 }
 
-export function updateCurrentPlayer(currentPlayerIndex) {
+export function updateCurrentPlayer(currentPlayerIndex, startNextIndex) {
 
     return {
         type: UPDATE_PLAYERS,
         payload: {
             currentPlayer: mainPlayerData[currentPlayerIndex + 1],
             currentPlayerIndex: currentPlayerIndex + 1,
-            nextPlayers: mainPlayerData.slice(currentPlayerIndex + 1, currentPlayerIndex + 6)
+            nextPlayers:mainPlayerData.slice(startNextIndex + 1, startNextIndex + 6)
         }
     };
 }
@@ -65,7 +65,7 @@ export function fetchLocalPlayerData(currentPlayerIndex) {
     };
 }
 
-export function updateLocalPlayerData(currentPlayerValue, currentBidClub) {
+export function updateLocalPlayerData(currentPlayerValue, currentBidClub, startNextIndex) {
 
     return {
         type: UPDATE_LOCAL_DATA,

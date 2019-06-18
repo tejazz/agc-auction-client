@@ -7,6 +7,10 @@ import { Row, Grid, Col } from 'react-flexbox-grid';
 class Home extends Component {
     constructor(props) {
         super(props);
+
+        this.state = {
+            startNextIndex: 1
+        }
     }
 
     componentDidMount() {
@@ -34,18 +38,28 @@ class Home extends Component {
             return;
         }
 
-        this.props.updateCurrentPlayer(this.props.players.currentPlayerIndex);
+        this.props.updateCurrentPlayer(this.props.players.currentPlayerIndex, this.state.startNextIndex);
         this.props.fetchLocalPlayerData(this.props.players.currentPlayerIndex);
+
+        this.setState({
+            startNextIndex: this.state.startNextIndex + 1
+        });
     }
 
     renderParticipantClubs(club) {
         return (
-            <Col xs={6} md={6} lg={6} key={club.club} className={local.clubListContainer_item}>
-                <div>
-                    Club: {club.club}
-                </div>
-                <div>
-                    Budget: {club.clubBudget}
+            <Col xs={12} md={6} lg={4} key={club.club} className={local.clubListContainer_item}>
+                <div className={local.clubListContainer_item_clubtile}>
+                    <img
+                        src={club.clubLogo}
+                        alt="club-logo"
+                        className={local.clubListContainer_item_photo}
+                    />
+                    <div className={local.clubListContainer_item_data}>
+                        <p className={local.clubListContainer_item_datadetail}><b>{club.club}</b></p>
+                        <p className={local.clubListContainer_item_datadetail}>BUDGET: <b>{club.clubBudget}</b> FPS</p>
+                        <p className={local.clubListContainer_item_datadetail}>PLAYERS LEFT: <b>{20 - club.players.length}</b></p>
+                    </div>
                 </div>
             </Col>
         );
@@ -54,7 +68,16 @@ class Home extends Component {
     renderNextlist(player) {
         return (
             <div key={player.name} className={local.nextContainer_item}>
-                {player.name}
+                <img
+                    src={player.profilePhoto}
+                    alt="player-image"
+                    className={local.nextContainer_item_playerphoto}
+                />
+                <img
+                    src={player.defaultClubPhoto}
+                    alt="player-image"
+                    className={local.nextContainer_item_clubphoto}
+                />
             </div>
         );
     }
@@ -71,24 +94,49 @@ class Home extends Component {
         return (
             <Grid fluid>
                 <Row>
-                    <Col xs={12} lg={6} md={6}>
+                    <Col xs={12} lg={12} md={12}>
+                        <h3 className={local.mainHeader}>AGC AUCTION CENTRAL</h3>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs={12} lg={5} md={5}>
                         <div className={local.playerContainer}>
-                            Player Section
-                            <input type="text" onChange={(e) => this.valueChange(e, "CurrentPrice")} value={this.props.localPlayerData.currentPlayerValue} />
-                            <select onChange={(e) => this.valueChange(e, "ClubChange")}>
+                            <h4 className={local.playerContainer_title}>CURRENT PLAYER</h4>
+                            <p className={local.playerContainer_subtitle}>Confirm your bid</p>
+                            <div className={local.playerContainer_currentPlayer}>
+                                <p className={local.playerContainer_currentPlayer_name}>{this.props.players.currentPlayer.name}</p>
+                                <div className={local.playerContainer_currentPlayer_image}>
+                                    <img
+                                        src={this.props.players.currentPlayer.profilePhoto}
+                                        alt="player-photo"
+                                        className={local.playerContainer_currentPlayer_photo}
+                                    />
+                                    <img
+                                        src={this.props.players.currentPlayer.defaultClubPhoto}
+                                        alt="club-photo"
+                                        className={local.playerContainer_currentPlayer_club}
+                                    />
+                                </div>
+                                <div className={local.playerContainer_currentPlayer_data}>
+                                    <p><b>{this.props.players.currentPlayer.overall}XP {this.props.players.currentPlayer.position}</b></p>
+                                </div>
+                            </div>
+                            <input className={local.playerContainer_bidInput} type="text" onChange={(e) => this.valueChange(e, "CurrentPrice")} value={this.props.localPlayerData.currentPlayerValue} />
+                            <select className={local.playerContainer_clubSelect} onChange={(e) => this.valueChange(e, "ClubChange")}>
                                 {this.props.clubs.map((club) => {
                                     return (<option key={club.club} value={club.club}>{club.club}</option>)
                                 })}
                             </select>
-                            <button onClick={() => this.updatePlayer()}>Update Player</button>
+                            <button className={local.playerContainer_confirmbtn} onClick={() => this.updatePlayer()}>SELL</button>
+                        </div>
+                        <div>
                             <Row className={local.nextContainer}>
                                 {this.props.players.nextPlayers.map((player) => this.renderNextlist(player))}
                             </Row>
                         </div>
                     </Col>
-                    <Col xs={12} lg={6} md={6}>
+                    <Col xs={12} lg={7} md={7}>
                         <div className={local.clubContainer}>
-                            Club Section
                             <Row className={local.clubListContainer}>
                                 {this.props.clubs.map((club) => this.renderParticipantClubs(club))}
                             </Row>
