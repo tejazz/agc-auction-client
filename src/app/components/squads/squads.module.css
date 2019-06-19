@@ -1,0 +1,71 @@
+.clubContainer {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.clubContainer_item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid cadetblue;
+    color: cadetblue;
+    justify-content: flex-end;
+    position: relative;
+    width: 95%;
+    float: right;
+    transition: all .2s;
+}
+
+.clubContainer_item:hover {
+    width: 100%;
+    background: white;
+}
+
+.clubContainer_item_name {
+    margin-right: 20px;
+}
+
+.clubContainer_item_image {
+    width: 30px;
+    margin: 15px;
+    transition: all .2s;
+}
+
+.clubContainer_item:hover > .clubContainer_item_image {
+    width: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:  rgba(255, 255, 255, 0.4);
+}
+
+
+@media only screen and (max-width: 530px) {
+    .clubContainer_item_name {
+        display: none;
+    }
+
+    .clubContainer_item {
+        width: 90%;
+    }
+
+    .clubContainer_item:hover {
+        width: 90%;
+    }
+
+    .clubContainer_item_image:hover {
+        width: 40px;
+    }
+}
