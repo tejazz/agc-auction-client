@@ -115,7 +115,7 @@ class Home extends Component {
             <Grid fluid>
                 <Row>
                     <Col xs={12} lg={12} md={12}>
-                        <h3 className={local.mainHeader}>AGC AUCTION CENTRAL</h3>
+                        <h3 className={local.mainHeader} onClick={() => this.props.history.push("/squad")}>AGC AUCTION CENTRAL</h3>
                     </Col>
                 </Row>
                 <Row>

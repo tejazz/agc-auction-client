@@ -69,3 +69,18 @@
         width: 40px;
     }
 }
+
+.playerThumbnail_image {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.playerThumbnail_datasection {
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+.playerThumbnail_data {
+    color: cadetblue;
+}

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as local from './squads.module.css';
 import { connect } from 'react-redux';
-import { fetchAllClubs } from '../../actions';
+import { fetchAllClubs, fetchAllPlayers } from '../../actions';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 class Squads extends Component {
@@ -15,6 +15,7 @@ class Squads extends Component {
 
     componentDidMount() {
         this.props.fetchAllClubs();
+        this.props.fetchAllPlayers();
     }
 
     renderClubList(club, index) {
@@ -26,7 +27,7 @@ class Squads extends Component {
                         currentClubIndex: index
                     });
                 }}
-                style={(this.state.currentClubIndex === index) ? {background: "white", width: "100%"} : {background: "rgba(255, 255, 255, 0.7)", width: "95%"}}
+                style={(this.state.currentClubIndex === index) ? { background: "white", width: "100%" } : { background: "rgba(255, 255, 255, 0.7)", width: "95%" }}
             >
                 <img
                     src={club.clubLogo}
@@ -35,6 +36,24 @@ class Squads extends Component {
                 />
                 <p className={local.clubContainer_item_name}>{club.club}</p>
             </div>
+        );
+    }
+
+    renderPlayer(player) {
+        return (
+            <Col xs={6} lg={2} md={2}>
+                <div className={local.playerThumbnail}>
+                    <img
+                        src={player.profilePhoto}
+                        alt="player-profile"
+                        className={local.playerThumbnail_image}
+                    />
+                    <div className={local.playerThumbnail_datasection}>
+                        <p className={local.playerThumbnail_data}>{player.name} {player.overall}XP</p>
+                        <p className={local.playerThumbnail_data}>{player.position} {player.soldPrice}</p>
+                    </div>
+                </div>
+            </Col>
         );
     }
 
@@ -62,7 +81,7 @@ class Squads extends Component {
                         <p>{this.props.clubs[this.state.currentClubIndex].clubBudget} FPS</p>
 
                         <Row>
-                            
+                            {this.props.clubs[this.state.currentClubIndex].players.map((player) => this.renderPlayer(player))}
                         </Row>
                     </Col>
                 </Row>
@@ -77,4 +96,4 @@ function mapStateToProps(state) {
     };
 }
 
-export default connect(mapStateToProps, { fetchAllClubs })(Squads);
+export default connect(mapStateToProps, { fetchAllClubs, fetchAllPlayers })(Squads);
