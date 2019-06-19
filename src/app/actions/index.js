@@ -49,18 +49,20 @@ export function updateCurrentPlayer(currentPlayerIndex, startNextIndex) {
         payload: {
             currentPlayer: mainPlayerData[currentPlayerIndex + 1],
             currentPlayerIndex: currentPlayerIndex + 1,
-            nextPlayers:mainPlayerData.slice(startNextIndex + 1, startNextIndex + 6)
+            nextPlayers: mainPlayerData.slice(startNextIndex + 1, startNextIndex + 6)
         }
     };
 }
 
-export function fetchLocalPlayerData(currentPlayerIndex) {
+export function fetchLocalPlayerData(currentPlayerIndex, currentBidClub) {
+
+    let clubAdded = (currentBidClub === "") ? "FC Barcelona" : currentBidClub;
 
     return {
         type: FETCH_LOCAL_DATA,
         payload: {
             currentPlayerValue: mainPlayerData[currentPlayerIndex].basePrice,
-            currentBidClub: mainClubData[0].club
+            currentBidClub: clubAdded
         }
     };
 }

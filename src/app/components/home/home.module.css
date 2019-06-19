@@ -29,6 +29,7 @@
     font-size: 18px;
     padding: 10px 0;
     width: 200px;
+    font-family: Oswald;
 }
 
 .playerContainer_subtitle {
@@ -64,6 +65,8 @@
     font-weight: bold;
     width: 200px;
     text-indent: 6px;
+    font-family: Oswald;
+    font-size: 15px;
 }
 
 .playerContainer_currentPlayer {
@@ -72,7 +75,6 @@
 
 .playerContainer_currentPlayer_name {
     font-weight: bold;
-    text-transform: uppercase;
 }
 
 .playerContainer_currentPlayer_image {
@@ -164,7 +166,7 @@
     margin-left: 15px;
     margin-right: 10px;
     color: cadetblue;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .clubListContainer_item_datadetail {

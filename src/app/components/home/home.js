@@ -16,7 +16,7 @@ class Home extends Component {
     componentDidMount() {
         this.props.fetchAllClubs();
         this.props.fetchAllPlayers();
-        this.props.fetchLocalPlayerData(0);
+        this.props.fetchLocalPlayerData(0, "");
     }
 
     valueChange(e, type) {
@@ -28,18 +28,36 @@ class Home extends Component {
     }
 
     updatePlayer() {
+        let endForce = false;
+
+        this.props.clubs.map((club) => {
+            if (club.club === this.props.localPlayerData.currentBidClub) {
+                if (club.clubBudget <= 0 || club.players.length === 20) {
+                    alert("Current club is out of the bid");
+                    endForce = true;
+                } else if (this.props.localPlayerData.currentPlayerValue > club.clubBudget) {
+                    alert("Current club is out of budget");
+                    endForce = true;
+                }
+            }
+        });
+
+        if(endForce) {
+            return;
+        }
+
         if (parseInt(this.props.localPlayerData.currentPlayerValue) >= this.props.players.currentPlayer.basePrice) {
             this.props.players.currentPlayer.soldPrice = this.props.localPlayerData.currentPlayerValue;
             this.props.players.currentPlayer.currentClub = this.props.localPlayerData.currentBidClub;
 
             this.props.updateClubData(this.props.players.currentPlayer, this.props.clubs);
         } else {
-            alert("Sold price cannot be less than base price.");
+            alert("Purchase price cannot be less than base price.");
             return;
         }
 
         this.props.updateCurrentPlayer(this.props.players.currentPlayerIndex, this.state.startNextIndex);
-        this.props.fetchLocalPlayerData(this.props.players.currentPlayerIndex);
+        this.props.fetchLocalPlayerData(this.props.players.currentPlayerIndex, this.props.localPlayerData.currentBidClub);
 
         this.setState({
             startNextIndex: this.state.startNextIndex + 1
@@ -57,8 +75,8 @@ class Home extends Component {
                     />
                     <div className={local.clubListContainer_item_data}>
                         <p className={local.clubListContainer_item_datadetail}><b>{club.club}</b></p>
-                        <p className={local.clubListContainer_item_datadetail}>BUDGET: <b>{club.clubBudget}</b> FPS</p>
-                        <p className={local.clubListContainer_item_datadetail}>PLAYERS LEFT: <b>{20 - club.players.length}</b></p>
+                        <p className={local.clubListContainer_item_datadetail}>Budget: <b>{club.clubBudget}</b> FPS</p>
+                        <p className={local.clubListContainer_item_datadetail}>Squad Size: <b>{club.players.length}</b></p>
                     </div>
                 </div>
             </Col>
@@ -70,12 +88,12 @@ class Home extends Component {
             <div key={player.name} className={local.nextContainer_item}>
                 <img
                     src={player.profilePhoto}
-                    alt="player-image"
+                    alt="player"
                     className={local.nextContainer_item_playerphoto}
                 />
                 <img
                     src={player.defaultClubPhoto}
-                    alt="player-image"
+                    alt="player"
                     className={local.nextContainer_item_clubphoto}
                 />
             </div>
@@ -83,6 +101,8 @@ class Home extends Component {
     }
 
     render() {
+        console.log(this.props);
+
         if (!this.props.players || !this.props.clubs[0]) {
             return (
                 <div>
@@ -108,12 +128,12 @@ class Home extends Component {
                                 <div className={local.playerContainer_currentPlayer_image}>
                                     <img
                                         src={this.props.players.currentPlayer.profilePhoto}
-                                        alt="player-photo"
+                                        alt="player"
                                         className={local.playerContainer_currentPlayer_photo}
                                     />
                                     <img
                                         src={this.props.players.currentPlayer.defaultClubPhoto}
-                                        alt="club-photo"
+                                        alt="club"
                                         className={local.playerContainer_currentPlayer_club}
                                     />
                                 </div>
