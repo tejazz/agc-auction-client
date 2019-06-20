@@ -27,33 +27,39 @@ class Home extends Component {
         }
     }
 
-    updatePlayer() {
-        let endForce = false;
+    updatePlayer(sellType) {
+        if (sellType === "sold") {
+            let endForce = false;
 
-        this.props.clubs.map((club) => {
-            if (club.club === this.props.localPlayerData.currentBidClub) {
-                if (club.clubBudget <= 0 || club.players.length === 20) {
-                    alert("Current club is out of the bid");
-                    endForce = true;
-                } else if (this.props.localPlayerData.currentPlayerValue > club.clubBudget) {
-                    alert("Current club is out of budget");
-                    endForce = true;
+            this.props.clubs.map((club) => {
+                if (club.club === this.props.localPlayerData.currentBidClub) {
+                    if (club.clubBudget <= 0 || club.players.length === 20) {
+                        alert("Current club is out of the bid");
+                        endForce = true;
+                    } else if (this.props.localPlayerData.currentPlayerValue > club.clubBudget) {
+                        alert("Current club is out of budget");
+                        endForce = true;
+                    }
                 }
+            });
+
+            if (endForce) {
+                return;
             }
-        });
 
-        if(endForce) {
-            return;
-        }
+            if (parseInt(this.props.localPlayerData.currentPlayerValue) >= this.props.players.currentPlayer.basePrice) {
+                this.props.players.currentPlayer.soldPrice = this.props.localPlayerData.currentPlayerValue;
+                this.props.players.currentPlayer.currentClub = this.props.localPlayerData.currentBidClub;
+                this.props.players.currentPlayer.active = false;
 
-        if (parseInt(this.props.localPlayerData.currentPlayerValue) >= this.props.players.currentPlayer.basePrice) {
-            this.props.players.currentPlayer.soldPrice = this.props.localPlayerData.currentPlayerValue;
-            this.props.players.currentPlayer.currentClub = this.props.localPlayerData.currentBidClub;
-
-            this.props.updateClubData(this.props.players.currentPlayer, this.props.clubs);
-        } else {
-            alert("Purchase price cannot be less than base price.");
-            return;
+                this.props.updateClubData(this.props.players.currentPlayer, this.props.clubs);
+            } else {
+                alert("Purchase price cannot be less than base price.");
+                return;
+            }
+        } else if (sellType === "pass") {
+            this.props.players.currentPlayer.active = false;
+            this.props.players.currentPlayer.passPlayer = true;
         }
 
         this.props.updateCurrentPlayer(this.props.players.currentPlayerIndex, this.state.startNextIndex);
@@ -115,7 +121,9 @@ class Home extends Component {
             <Grid fluid>
                 <Row>
                     <Col xs={12} lg={12} md={12}>
-                        <h3 className={local.mainHeader} onClick={() => this.props.history.push("/squad")}>AGC AUCTION CENTRAL</h3>
+                        <div className={local.headerSection}>
+                            <h3 className={local.mainHeader} onClick={() => this.props.history.push("/squad")}>AGC AUCTION CENTRAL</h3>
+                        </div>
                     </Col>
                 </Row>
                 <Row>
@@ -147,7 +155,9 @@ class Home extends Component {
                                     return (<option key={club.club} value={club.club}>{club.club}</option>)
                                 })}
                             </select>
-                            <button className={local.playerContainer_confirmbtn} onClick={() => this.updatePlayer()}>SELL</button>
+                            <br />
+                            <button className={local.playerContainer_confirmbtn} onClick={() => this.updatePlayer("sold")}>SELL</button>
+                            <button className={local.playerContainer_confirmbtn} onClick={() => this.updatePlayer("pass")} style={{background: "rgba(220, 20, 60, 0.7"}}>PASS</button>
                         </div>
                         <div>
                             <Row className={local.nextContainer}>

@@ -41,19 +41,19 @@ class Squads extends Component {
 
     renderPlayer(player) {
         return (
-            <Col xs={6} lg={2} md={2}>
-                <div className={local.playerThumbnail}>
-                    <img
-                        src={player.profilePhoto}
-                        alt="player-profile"
-                        className={local.playerThumbnail_image}
-                    />
-                    <div className={local.playerThumbnail_datasection}>
-                        <p className={local.playerThumbnail_data}>{player.name} {player.overall}XP</p>
-                        <p className={local.playerThumbnail_data}>{player.position} {player.soldPrice}</p>
-                    </div>
+            <div className={local.playerThumbnail}>
+                <img
+                    src={player.profilePhoto}
+                    alt="player-profile"
+                    className={local.playerThumbnail_image}
+                />
+                <p className={local.playerThumbnail_overall}>{player.overall}</p>
+                <span className={`${local.playerThumbnail_overall} ${local.playerThumbnail_position}`}>{player.position}</span>
+                <div className={local.playerThumbnail_datasection}>
+                    <p className={local.playerThumbnail_data}>{player.name}</p>
+                    <p className={local.playerThumbnail_data}>Price: <b>{player.soldPrice} FPS</b></p>
                 </div>
-            </Col>
+            </div>
         );
     }
 
@@ -77,12 +77,13 @@ class Squads extends Component {
                         </div>
                     </Col>
                     <Col lg={9} md={9} xs={9}>
-                        <h4>{this.props.clubs[this.state.currentClubIndex].club}</h4>
-                        <p>{this.props.clubs[this.state.currentClubIndex].clubBudget} FPS</p>
+                        <div className={local.playerThumbnail_Container}>
+                            <h4 className={local.playerThumbnail_clubname}>{this.props.clubs[this.state.currentClubIndex].club}</h4>
+                            <p className={local.playerThumbnail_clubdata}>CLUB BUDGET: {this.props.clubs[this.state.currentClubIndex].clubBudget} FPS</p>
+                            <p className={local.playerThumbnail_clubdata}>SQUAD SIZE: {this.props.clubs[this.state.currentClubIndex].players.length}</p>
 
-                        <Row>
                             {this.props.clubs[this.state.currentClubIndex].players.map((player) => this.renderPlayer(player))}
-                        </Row>
+                        </div>
                     </Col>
                 </Row>
             </Grid>

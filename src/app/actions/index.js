@@ -12,13 +12,21 @@ var mainPlayerData = PlayerData;
 var mainClubData = ClubData.slice(0, 20);
 
 export function fetchAllPlayers() {
+    let currentPlayerIndex = 0;
+
+    for (let index = 0; index < mainPlayerData.length; index++) {
+        if (mainPlayerData[index].active) {
+            currentPlayerIndex = index;
+            break;
+        }
+    }
 
     return {
         type: FETCH_ALL_PLAYERS,
         payload: {
-            currentPlayer: mainPlayerData[0],
-            currentPlayerIndex: 0,
-            nextPlayers: mainPlayerData.slice(1, 6)
+            currentPlayer: mainPlayerData[currentPlayerIndex],
+            currentPlayerIndex: currentPlayerIndex,
+            nextPlayers: mainPlayerData.slice(currentPlayerIndex + 1, currentPlayerIndex + 6)
         }
     };
 }
