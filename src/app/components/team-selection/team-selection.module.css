@@ -1,0 +1,161 @@
+.searchContainer {
+    background:rgba(173, 255, 47, .7);
+    padding: 15px;
+}
+
+.searchContainer_clublist {
+    height: 60vh;
+    background: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.searchContainer_search {
+    outline: none;
+    border-radius: 10px;
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid cadetblue; 
+    font-size: 16px;
+    font-family: Oswald;
+    padding: 10px;
+    color: cadetblue;
+    text-align: center;
+}
+
+.searchContainer_listitem {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    color: cadetblue;
+    justify-content: center;
+    border: 1px solid cadetblue;
+    width: 100%;
+}
+
+.searchContainer_listitem_logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.searchContainer_listitem_tick {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.searchContainer_info {
+    color: white;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+}
+
+.searchContainer_info > * {
+    margin: 0;
+}
+
+.searchContainer_info > h3 {
+    text-transform: uppercase;
+}
+
+.selectedDivision {
+    position: relative;
+}
+
+.selectedContainer {
+    padding: 15px;
+}
+
+.selectedContainer_info {
+    color: white;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+}
+
+.selectedContainer_info > * {
+    margin: 0;
+}
+
+.selectedContainer_info > h3 {
+    text-transform: uppercase;
+}
+
+.searchContainer_info > p {
+    font-size: 20px;
+}
+
+.selectedContainer_clublist_main {
+    padding: 0!important;
+    margin: 0;
+    float: left;
+}
+
+.selectedContainer_clublist {
+    max-height: 60vh;
+    overflow-y: scroll;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.selectedContainer_clublist_item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid cadetblue;
+    padding-left: 10px;
+}
+
+.item_image {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.item_name {
+    color: cadetblue;
+}
+
+.selectedContainer_confirmbtn {
+    color: white;
+    background: cadetblue;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-size: 18px;
+    padding: 10px;
+    width: 95px;
+    font-family: Oswald;
+    position: absolute;
+    bottom: 20px;
+    right: 65px;
+}
+
+.searchNotFoundText {
+    text-align: center;
+    font-size: 16px;
+    font-family: Oswald;
+    padding: 10px;
+    color: cadetblue;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:  rgba(0, 0, 0, 0.4);
+}

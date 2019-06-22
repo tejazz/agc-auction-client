@@ -14,8 +14,14 @@ class Home extends Component {
     }
 
     componentDidMount() {
-        this.props.fetchAllClubs();
+        // check if localStorage has club values
+        if (!localStorage.getItem("clubs")) {
+            this.props.history.push('/teamselect');
+            return;
+        }
+
         this.props.fetchAllPlayers();
+        this.props.updateClubData({}, JSON.parse(localStorage.getItem("clubs")));
         this.props.fetchLocalPlayerData(0, "");
     }
 
@@ -80,9 +86,9 @@ class Home extends Component {
                         className={local.clubListContainer_item_photo}
                     />
                     <div className={local.clubListContainer_item_data}>
-                        <p className={local.clubListContainer_item_datadetail}><b>{club.club}</b></p>
-                        <p className={local.clubListContainer_item_datadetail}>Budget: <b>{club.clubBudget}</b> FPS</p>
-                        <p className={local.clubListContainer_item_datadetail}>Squad Size: <b>{club.players.length}</b></p>
+                        <p className={local.clubListContainer_item_datadetail}><b>{(club.club.length > 12) ? club.club.substring(0, 12) + "." : club.club}</b></p>
+                        <p className={local.clubListContainer_item_datadetail}>Bgt: <b>{club.clubBudget}</b>FPS</p>
+                        <p className={local.clubListContainer_item_datadetail}>Squad: <b>{club.players.length}</b></p>
                     </div>
                 </div>
             </Col>
@@ -109,7 +115,7 @@ class Home extends Component {
     render() {
         console.log(this.props);
 
-        if (!this.props.players || !this.props.clubs[0]) {
+        if (!this.props.players.currentPlayer) {
             return (
                 <div>
                     Fetching all the data...
@@ -118,15 +124,12 @@ class Home extends Component {
         }
 
         return (
-            <Grid fluid>
-                <Row>
+            <Grid fluid style={{ margin: 0, padding: 0, overflowX: "hidden" }}>
+                <Row className={local.navBar}>
                     <Col xs={12} lg={12} md={12}>
-                        <div className={local.headerSection}>
-                            <h3 className={local.mainHeader} onClick={() => this.props.history.push("/squad")}>AGC AUCTION CENTRAL</h3>
-                        </div>
                     </Col>
                 </Row>
-                <Row>
+                <Row className={local.homeMainContainer}>
                     <Col xs={12} lg={5} md={5}>
                         <div className={local.playerContainer}>
                             <h4 className={local.playerContainer_title}>CURRENT PLAYER</h4>
@@ -157,7 +160,7 @@ class Home extends Component {
                             </select>
                             <br />
                             <button className={local.playerContainer_confirmbtn} onClick={() => this.updatePlayer("sold")}>SELL</button>
-                            <button className={local.playerContainer_confirmbtn} onClick={() => this.updatePlayer("pass")} style={{background: "rgba(220, 20, 60, 0.7"}}>PASS</button>
+                            <button className={local.playerContainer_confirmbtn} onClick={() => this.updatePlayer("pass")} style={{ background: "rgba(220, 20, 60, 0.7" }}>PASS</button>
                         </div>
                         <div>
                             <Row className={local.nextContainer}>
@@ -168,7 +171,7 @@ class Home extends Component {
                     <Col xs={12} lg={7} md={7}>
                         <div className={local.clubContainer}>
                             <Row className={local.clubListContainer}>
-                                {this.props.clubs.map((club) => this.renderParticipantClubs(club))}
+                                {(this.props.clubs.length === 0) ? ("No clubs available") : this.props.clubs.map((club) => this.renderParticipantClubs(club))}
                             </Row>
                         </div>
                     </Col>

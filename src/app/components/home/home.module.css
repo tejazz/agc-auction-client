@@ -1,5 +1,11 @@
-.headerSection {
+.navBar {
     height: 5vh;
+    background: white;
+}
+
+.homeMainContainer {
+    height: 95vh;
+    padding-top: 15px;
 }
 
 .mainHeader {
@@ -145,8 +151,6 @@
     display: block!important;
     margin: 0 auto!important;
     padding-bottom: 40px;
-    height: 95vh;
-    overflow-y: scroll;
 }
 
 .clubListContainer {

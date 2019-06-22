@@ -7,9 +7,9 @@ export const UPDATE_PLAYERS = 'update_players';
 export const UPDATE_CLUB_DATA = 'update_club_data';
 export const FETCH_LOCAL_DATA = 'fetch_local_data';
 export const UPDATE_LOCAL_DATA = 'update_local_data';
+export const SEARCH_PLAYERS = 'search_players';
 
 var mainPlayerData = PlayerData;
-var mainClubData = ClubData.slice(0, 20);
 
 export function fetchAllPlayers() {
     let currentPlayerIndex = 0;
@@ -31,7 +31,17 @@ export function fetchAllPlayers() {
     };
 }
 
-export function fetchAllClubs() {
+export function fetchAllClubs(value, clubs) {
+    let mainClubData = ClubData;
+
+    // mock data included (needs refactoring)
+    if (value == "some") {
+        mainClubData = ClubData.slice(0, 20);
+    } else if (value === "all") {
+        mainClubData = ClubData;
+    } else {
+        mainClubData = clubs;
+    }  
 
     return {
         type: FETCH_ALL_CLUBS,
@@ -82,6 +92,17 @@ export function updateLocalPlayerData(currentPlayerValue, currentBidClub, startN
         payload: {
             currentPlayerValue,
             currentBidClub
+        }
+    };
+}
+
+export function searchClubs(term) {
+
+    return {
+        type: SEARCH_PLAYERS,
+        payload: {
+            term,
+            clubs: ClubData
         }
     };
 }

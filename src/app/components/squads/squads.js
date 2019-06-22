@@ -14,7 +14,6 @@ class Squads extends Component {
     }
 
     componentDidMount() {
-        this.props.fetchAllClubs();
         this.props.fetchAllPlayers();
     }
 
@@ -41,48 +40,51 @@ class Squads extends Component {
 
     renderPlayer(player) {
         return (
-            <div className={local.playerThumbnail}>
-                <img
-                    src={player.profilePhoto}
-                    alt="player-profile"
-                    className={local.playerThumbnail_image}
-                />
-                <p className={local.playerThumbnail_overall}>{player.overall}</p>
-                <span className={`${local.playerThumbnail_overall} ${local.playerThumbnail_position}`}>{player.position}</span>
-                <div className={local.playerThumbnail_datasection}>
-                    <p className={local.playerThumbnail_data}>{player.name}</p>
-                    <p className={local.playerThumbnail_data}>Price: <b>{player.soldPrice} FPS</b></p>
+            <Col xs={6} lg={2} md={2}>
+                <div className={local.playerThumbnail}>
+                    <img
+                        src={player.profilePhoto}
+                        alt="player-profile"
+                        className={local.playerThumbnail_image}
+                    />
+                    <p className={local.playerThumbnail_overall}>{player.overall}</p>
+                    <span className={`${local.playerThumbnail_overall} ${local.playerThumbnail_position}`}>{player.position}</span>
+                    <div className={local.playerThumbnail_datasection}>
+                        <p className={local.playerThumbnail_data}>{player.name}</p>
+                        <p className={local.playerThumbnail_data}>Price: <b>{player.soldPrice} FPS</b></p>
+                    </div>
                 </div>
-            </div>
+            </Col>
         );
     }
 
     render() {
-        console.log(this.state);
-
-        if (Object.entries(this.props.clubs).length === 0) {
-            return (
-                <div>
-                    Fetching all data...
-                </div>
-            );
-        }
+        console.log(this.props);
 
         return (
-            <Grid fluid>
-                <Row>
+            <Grid fluid style={{ margin: 0, padding: 0, overflowX: "hidden" }}>
+                <Row className={local.navBar}>
+                    <Col xs={12} md={12} lg={12}>
+                    </Col>
+                </Row>
+                <Row className={local.squadMainContainer}>
                     <Col lg={3} md={3} xs={3}>
                         <div className={local.clubContainer}>
-                            {this.props.clubs.map((club, index) => this.renderClubList(club, index))}
+                            {(this.props.clubs.length === 0) ? "No clubs available" : this.props.clubs.map((club, index) => this.renderClubList(club, index))}
                         </div>
                     </Col>
                     <Col lg={9} md={9} xs={9}>
                         <div className={local.playerThumbnail_Container}>
-                            <h4 className={local.playerThumbnail_clubname}>{this.props.clubs[this.state.currentClubIndex].club}</h4>
-                            <p className={local.playerThumbnail_clubdata}>CLUB BUDGET: {this.props.clubs[this.state.currentClubIndex].clubBudget} FPS</p>
-                            <p className={local.playerThumbnail_clubdata}>SQUAD SIZE: {this.props.clubs[this.state.currentClubIndex].players.length}</p>
+                            {(this.props.clubs.length === 0) ? "No clubs available" :
+                                <p className={local.playerThumbnail_clubname}>{this.props.clubs[this.state.currentClubIndex].club}
+                                    <p className={local.playerThumbnail_clubdata}>CLUB BUDGET: {this.props.clubs[this.state.currentClubIndex].clubBudget} FPS</p>
+                                    <p className={local.playerThumbnail_clubdata}>SQUAD SIZE: {this.props.clubs[this.state.currentClubIndex].players.length}</p>
+                                </p>}
 
-                            {this.props.clubs[this.state.currentClubIndex].players.map((player) => this.renderPlayer(player))}
+                            {(this.props.clubs.length === 0) ? "No clubs available" :
+                                <Row>
+                                    {this.props.clubs[this.state.currentClubIndex].players.map((player) => this.renderPlayer(player))}
+                                </Row>}
                         </div>
                     </Col>
                 </Row>
