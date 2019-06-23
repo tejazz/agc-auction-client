@@ -1,6 +1,11 @@
+.mainContainer {
+    height: 100vh;
+}
+
 .searchContainer {
     background:rgba(173, 255, 47, .7);
     padding: 15px;
+    height: 100%;
 }
 
 .searchContainer_clublist {
@@ -88,7 +93,7 @@
 }
 
 .searchContainer_info > p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .selectedContainer_clublist_main {
@@ -98,10 +103,11 @@
 }
 
 .selectedContainer_clublist {
-    max-height: 60vh;
+    max-height: 40vh;
     overflow-y: scroll;
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 .selectedContainer_clublist_item {
@@ -123,17 +129,18 @@
 }
 
 .selectedContainer_confirmbtn {
-    color: white;
-    background: cadetblue;
-    border: 2px solid white;
+    color: cadetblue;
+    background: white;
+    border: 2px solid cadetblue;
     border-radius: 12px;
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px;
     width: 95px;
     font-family: Oswald;
     position: absolute;
     bottom: 20px;
     right: 65px;
+    outline: none;
 }
 
 .searchNotFoundText {
@@ -158,4 +165,18 @@
 
 ::-webkit-scrollbar-thumb:hover {
     background:  rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 530px) {
+    .searchContainer_clublist {
+        width: 90%;
+    }
+
+    .searchContainer_search {
+        width: 85%;
+    }
+
+    .selectedContainer_clublist {
+        width: 95%;
+    }
 }

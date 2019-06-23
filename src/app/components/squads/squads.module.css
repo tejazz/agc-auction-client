@@ -1,14 +1,16 @@
 .navBar {
-    height: 5vh;
+    height: 8vh;
+    background: rgba(255, 255, 255, 0.7);
 }
 
 .squadMainContainer {
-    height: 95vh;
+    height: 92vh;
 }
 
 .clubContainer {
-    height: 95vh;
+    height: 92vh;
     overflow-y: scroll;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .clubContainer_item {
@@ -66,7 +68,7 @@
 }
 
 .playerThumbnail_Container {
-    height: 95vh;
+    height: 92vh;
     width: 100%;
     overflow-y: scroll;
     overflow-x: hidden
@@ -116,18 +118,19 @@
 .playerThumbnail_clubname {
     color: white;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
 }
 
 .playerThumbnail_clubdata {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 0!important;
     margin: 0;
+    text-align: center;
 }
 
 @media only screen and (max-width: 700px) {
@@ -147,3 +150,34 @@
         width: 40px;
     }
 }
+
+.mainNavBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav_icon {
+    height: 4vh;
+    padding-top: 2vh;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.nosquadMessage {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 540px) {
+    .mainNavBar {
+        width: 100%;
+    }
+
+    .nav_icon {
+        width: 20%;
+        margin-right: 0;
+    }
+} 

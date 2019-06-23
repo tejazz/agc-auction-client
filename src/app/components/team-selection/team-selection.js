@@ -12,9 +12,10 @@ class TeamSelection extends Component {
 
         this.state = {
             teamsSelected: false,
-            searchValue: "",
             selectedClubs: []
         };
+
+        localStorage.removeItem('clubs');
     }
 
     componentDidMount() {
@@ -22,11 +23,7 @@ class TeamSelection extends Component {
     }
 
     getSearchValue(e) {
-        this.setState({
-            searchValue: e.target.value
-        });
-
-        this.props.searchClubs(this.state.searchValue);
+        this.props.searchClubs(e.target.value);
     }
 
     singleClubClicked(club, keyIndex) {
@@ -106,9 +103,9 @@ class TeamSelection extends Component {
 
         return (
             <Grid fluid style={{ margin: 0, padding: 0, overflowX: "hidden" }}>
-                <Row>
-                    <Col xs={6} md={6} lg={6}>
-                        <div className={local.searchContainer}>
+                <Row className={local.mainContainer}>
+                    <Col xs={12} md={6} lg={6} className={local.searchContainer}>
+                        <div>
                             <div className={local.searchContainer_info}>
                                 <h3>AGC Auction Central</h3>
                                 <p>Decide which clubs compete in your tournament.<br />Search and select clubs you want to participate. Select/deselect based on your choice.</p>
@@ -118,7 +115,6 @@ class TeamSelection extends Component {
                                 type="text"
                                 className={local.searchContainer_search}
                                 onChange={(e) => this.getSearchValue(e)}
-                                value={this.state.searchValue}
                                 placeholder="Search club..."
                             />
                             <div className={local.searchContainer_clublist}>
@@ -126,7 +122,7 @@ class TeamSelection extends Component {
                             </div>
                         </div>
                     </Col>
-                    <Col xs={6} md={6} lg={6} className={local.selectedDivision}>
+                    <Col xs={12} md={6} lg={6} className={local.selectedDivision}>
                         <div className={local.selectedContainer}>
                             <div className={local.selectedContainer_info}>
                                 <h3>Selected Clubs</h3>

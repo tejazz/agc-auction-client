@@ -1,11 +1,11 @@
 .navBar {
-    height: 5vh;
-    background: white;
+    height: 8vh;
+    background: rgba(255, 255, 255, 0.7);
 }
 
 .homeMainContainer {
-    height: 95vh;
-    padding-top: 15px;
+    height: 92vh;
+    padding-top: 30px;
 }
 
 .mainHeader {
@@ -147,7 +147,7 @@
 }
 
 .clubContainer {
-    width: 90%;
+    width: 95%;
     display: block!important;
     margin: 0 auto!important;
     padding-bottom: 40px;
@@ -167,10 +167,12 @@
     background: rgba(255, 255, 255, 0.7);
     display: flex;
     align-items: center;
+    padding: 10px 0;
 }
 
 .clubListContainer_item_photo {
-    width: 20%;
+    width: 40px;
+    height: 40px;
     margin: 20px;
 }
 
@@ -184,3 +186,31 @@
 .clubListContainer_item_datadetail {
     margin: 0;
 }
+
+.mainNavBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav_icon {
+    height: 4vh;
+    padding-top: 2vh;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 540px) {
+    .mainNavBar {
+        width: 100%;
+    }
+
+    .nav_icon {
+        width: 20%;
+        margin-right: 0;
+    }
+
+    .clubListContainer_item_photo {
+        margin: 4px;
+    }
+} 

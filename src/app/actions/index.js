@@ -8,6 +8,8 @@ export const UPDATE_CLUB_DATA = 'update_club_data';
 export const FETCH_LOCAL_DATA = 'fetch_local_data';
 export const UPDATE_LOCAL_DATA = 'update_local_data';
 export const SEARCH_PLAYERS = 'search_players';
+export const FETCH_PLAYERS = 'fetch_players';
+export const FILTER_PLAYERS = 'filter_players';
 
 var mainPlayerData = PlayerData;
 
@@ -41,7 +43,7 @@ export function fetchAllClubs(value, clubs) {
         mainClubData = ClubData;
     } else {
         mainClubData = clubs;
-    }  
+    }
 
     return {
         type: FETCH_ALL_CLUBS,
@@ -74,7 +76,7 @@ export function updateCurrentPlayer(currentPlayerIndex, startNextIndex) {
 
 export function fetchLocalPlayerData(currentPlayerIndex, currentBidClub) {
 
-    let clubAdded = (currentBidClub === "") ? "FC Barcelona" : currentBidClub;
+    let clubAdded = currentBidClub;
 
     return {
         type: FETCH_LOCAL_DATA,
@@ -103,6 +105,25 @@ export function searchClubs(term) {
         payload: {
             term,
             clubs: ClubData
+        }
+    };
+}
+
+export function fetchPlayers() {
+
+    return {
+        type: FETCH_PLAYERS,
+        payload: mainPlayerData
+    };
+}
+
+export function filterPlayers(term) {
+
+    return {
+        type: FILTER_PLAYERS,
+        payload: {
+            term,
+            mainPlayerData
         }
     };
 }

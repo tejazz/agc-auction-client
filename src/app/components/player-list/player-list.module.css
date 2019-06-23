@@ -1,0 +1,80 @@
+.navBar {
+    height: 8vh;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.mainContainer {
+    height: 92vh;
+    overflow-y: scroll;
+}
+
+.mainNavBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav_icon {
+    height: 4vh;
+    padding-top: 2vh;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.sideContainer {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 0;
+}
+
+.filterBtn {
+    background: white;
+    color: cadetblue;
+    border: 1px solid cadetblue;
+    font-size: 16px;
+    font-family: Oswald;
+    padding: 10px;
+    width: 100%;
+    display: block;
+}
+
+.playerList {
+    padding: 15px;
+}
+
+.playerItem {
+    background: rgba(255, 255, 255, 0.7);
+    color: cadetblue;
+    margin: 0;
+    padding: 0;
+    border: 1px solid cadetblue;
+}
+
+.playerData {
+    padding: 10px;
+}
+
+.playerData > p {
+    margin: 0;
+}
+
+.playerListContainer {
+    height: 92vh;
+    overflow-y: scroll;
+}
+
+@media only screen and (max-width: 540px) {
+    .mainNavBar {
+        width: 100%;
+    }
+
+    .nav_icon {
+        width: 20%;
+        margin-right: 0;
+    }
+} 
+
+@media only screen and (max-width: 330px) {
+    .playerList {
+        padding: 0;
+    }
+}

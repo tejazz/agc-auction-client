@@ -3,6 +3,11 @@ import * as local from './home.module.css';
 import { fetchAllClubs, fetchAllPlayers, updateCurrentPlayer, updateClubData, fetchLocalPlayerData, updateLocalPlayerData } from '../../actions';
 import { connect } from 'react-redux';
 import { Row, Grid, Col } from 'react-flexbox-grid';
+import Squad from '../../../assets/images/squad.svg';
+import Refresh from '../../../assets/images/refresh.svg';
+import Fixtures from '../../../assets/images/fixture.svg';
+import Auction from '../../../assets/images/auction.svg';
+import List from '../../../assets/images/list.svg';
 
 class Home extends Component {
     constructor(props) {
@@ -20,9 +25,18 @@ class Home extends Component {
             return;
         }
 
+        let currentBidClub = "";
+
         this.props.fetchAllPlayers();
-        this.props.updateClubData({}, JSON.parse(localStorage.getItem("clubs")));
-        this.props.fetchLocalPlayerData(0, "");
+
+        if (!this.props.clubs[0]) {
+            this.props.updateClubData({}, JSON.parse(localStorage.getItem("clubs")));
+            currentBidClub = JSON.parse(localStorage.getItem("clubs"))[0].club;
+        } else {
+            currentBidClub = this.props.clubs[0].club;
+        }
+
+        this.props.fetchLocalPlayerData(0, currentBidClub);
     }
 
     valueChange(e, type) {
@@ -59,6 +73,7 @@ class Home extends Component {
                 this.props.players.currentPlayer.active = false;
 
                 this.props.updateClubData(this.props.players.currentPlayer, this.props.clubs);
+                localStorage.setItem("clubs", JSON.stringify(this.props.clubs));
             } else {
                 alert("Purchase price cannot be less than base price.");
                 return;
@@ -78,7 +93,7 @@ class Home extends Component {
 
     renderParticipantClubs(club) {
         return (
-            <Col xs={12} md={6} lg={4} key={club.club} className={local.clubListContainer_item}>
+            <Col xs={6} md={6} lg={4} key={club.club} className={local.clubListContainer_item}>
                 <div className={local.clubListContainer_item_clubtile}>
                     <img
                         src={club.clubLogo}
@@ -112,6 +127,10 @@ class Home extends Component {
         );
     }
 
+    navigateTo(urlParam) {
+        this.props.history.push(`/${urlParam}`);
+    }
+
     render() {
         console.log(this.props);
 
@@ -127,6 +146,38 @@ class Home extends Component {
             <Grid fluid style={{ margin: 0, padding: 0, overflowX: "hidden" }}>
                 <Row className={local.navBar}>
                     <Col xs={12} lg={12} md={12}>
+                        <div className={local.mainNavBar}>
+                            <img
+                                src={Auction}
+                                alt="auction"
+                                className={local.nav_icon}
+                                onClick={() => this.navigateTo('')}
+                            />
+                            <img
+                                src={Refresh}
+                                alt="refresh"
+                                className={local.nav_icon}
+                                onClick={() => this.navigateTo('teamselect')}
+                            />
+                            <img
+                                src={List}
+                                alt="list"
+                                className={local.nav_icon}
+                                onClick={() => this.navigateTo('list')}
+                            />
+                            <img
+                                src={Squad}
+                                alt="squad"
+                                className={local.nav_icon}
+                                onClick={() => this.navigateTo('squad')}
+                            />
+                            <img
+                                src={Fixtures}
+                                alt="fixture"
+                                className={local.nav_icon}
+                            // onClick={() => this.navigateTo('fixture')}
+                            />
+                        </div>
                     </Col>
                 </Row>
                 <Row className={local.homeMainContainer}>

@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import * as local from './squads.module.css';
 import { connect } from 'react-redux';
-import { fetchAllClubs, fetchAllPlayers } from '../../actions';
+import { fetchAllClubs, fetchAllPlayers, updateClubData } from '../../actions';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import Fixtures from '../../../assets/images/fixture.svg';
+import Squad from '../../../assets/images/squad.svg';
+import Refresh from '../../../assets/images/refresh.svg';
+import Auction from '../../../assets/images/auction.svg';
+import List from '../../../assets/images/list.svg';
 
 class Squads extends Component {
     constructor(props) {
@@ -14,6 +19,15 @@ class Squads extends Component {
     }
 
     componentDidMount() {
+        // check if localStorage has club values
+        if (!localStorage.getItem("clubs")) {
+            this.props.history.push('/teamselect');
+            return;
+        }
+
+        if (!this.props.clubs[0]) {
+            this.props.updateClubData({}, JSON.parse(localStorage.getItem("clubs")));
+        }
         this.props.fetchAllPlayers();
     }
 
@@ -58,30 +72,68 @@ class Squads extends Component {
         );
     }
 
+    navigateTo(urlParam) {
+        this.props.history.push(`/${urlParam}`);
+    }
+
     render() {
         console.log(this.props);
 
         return (
             <Grid fluid style={{ margin: 0, padding: 0, overflowX: "hidden" }}>
                 <Row className={local.navBar}>
-                    <Col xs={12} md={12} lg={12}>
+                    <Col xs={12} lg={12} md={12}>
+                        <div className={local.mainNavBar}>
+                            <img
+                                src={Auction}
+                                alt="auction"
+                                className={local.nav_icon}
+                                onClick={() => this.navigateTo('')}
+                            />
+                            <img
+                                src={Refresh}
+                                alt="refresh"
+                                className={local.nav_icon}
+                                onClick={() => this.navigateTo('teamselect')}
+                            />
+                            <img
+                                src={List}
+                                alt="list"
+                                className={local.nav_icon}
+                                onClick={() => this.navigateTo('list')}
+                            />
+                            <img
+                                src={Squad}
+                                alt="squad"
+                                className={local.nav_icon}
+                                onClick={() => this.navigateTo('squad')}
+                            />
+                            <img
+                                src={Fixtures}
+                                alt="fixture"
+                                className={local.nav_icon}
+                            // onClick={() => this.navigateTo('fixture')}
+                            />
+                        </div>
                     </Col>
                 </Row>
                 <Row className={local.squadMainContainer}>
                     <Col lg={3} md={3} xs={3}>
                         <div className={local.clubContainer}>
-                            {(this.props.clubs.length === 0) ? "No clubs available" : this.props.clubs.map((club, index) => this.renderClubList(club, index))}
+                            {(this.props.clubs.length === 0) ? null : this.props.clubs.map((club, index) => this.renderClubList(club, index))}
                         </div>
                     </Col>
                     <Col lg={9} md={9} xs={9}>
                         <div className={local.playerThumbnail_Container}>
-                            {(this.props.clubs.length === 0) ? "No clubs available" :
-                                <p className={local.playerThumbnail_clubname}>{this.props.clubs[this.state.currentClubIndex].club}
+                            {(this.props.clubs.length === 0) ? null :
+                                <div>
+                                    <p className={local.playerThumbnail_clubname}>{this.props.clubs[this.state.currentClubIndex].club}</p>
                                     <p className={local.playerThumbnail_clubdata}>CLUB BUDGET: {this.props.clubs[this.state.currentClubIndex].clubBudget} FPS</p>
                                     <p className={local.playerThumbnail_clubdata}>SQUAD SIZE: {this.props.clubs[this.state.currentClubIndex].players.length}</p>
-                                </p>}
+                                </div>}
 
-                            {(this.props.clubs.length === 0) ? "No clubs available" :
+                            {(this.props.clubs.length === 0) ?
+                                <p className={local.nosquadMessage}>No squads available</p> :
                                 <Row>
                                     {this.props.clubs[this.state.currentClubIndex].players.map((player) => this.renderPlayer(player))}
                                 </Row>}
@@ -99,4 +151,4 @@ function mapStateToProps(state) {
     };
 }
 
-export default connect(mapStateToProps, { fetchAllClubs, fetchAllPlayers })(Squads);
+export default connect(mapStateToProps, { fetchAllClubs, fetchAllPlayers, updateClubData })(Squads);
