@@ -12,6 +12,7 @@ export const FETCH_PLAYERS = 'fetch_players';
 export const FILTER_PLAYERS = 'filter_players';
 
 var mainPlayerData = PlayerData;
+var freshClubData = ClubData;
 
 export function fetchAllPlayers() {
     let currentPlayerIndex = 0;
@@ -40,7 +41,7 @@ export function fetchAllClubs(value, clubs) {
     if (value == "some") {
         mainClubData = ClubData.slice(0, 20);
     } else if (value === "all") {
-        mainClubData = ClubData;
+        mainClubData = freshClubData;
     } else {
         mainClubData = clubs;
     }

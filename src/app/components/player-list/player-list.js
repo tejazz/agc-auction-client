@@ -14,11 +14,26 @@ class PlayerList extends Component {
         super(props);
 
         this.state = {
-            filterOption: 'all'
+            filterOption: 'all',
+            listPlayers: this.props.listPlayers.slice(0, 1)
         }
     }
 
+    recursiveStrategy() {
+        setTimeout(() => {
+            let hasMore = this.state.listPlayers.length + 1 < this.props.listPlayers.length;
+
+            this.setState((prev, props) => ({
+                listPlayers: props.listPlayers.slice(0, prev.listPlayers.length + 1)
+            }));
+
+            if (hasMore)
+                this.recursiveStrategy();
+        }, 0);
+    }
+
     componentDidMount() {
+        this.recursiveStrategy();
         this.props.fetchPlayers();
     }
 
@@ -93,16 +108,16 @@ class PlayerList extends Component {
                 <Row className={local.mainContainer}>
                     <Col xs={12} lg={2} md={2} className={local.sideContainer}>
                         <div className={local.mainContainer_filter}>
-                            <button style={(this.state.filterOption === 'all') ? {color: 'white', background: 'cadetblue'} : {color: 'cadetblue', background: 'white'}} className={local.filterBtn} onClick={() => this.filterList('ALL')}>ALL</button>
-                            <button style={(this.state.filterOption === 'gk') ? {color: 'white', background: 'cadetblue'} : {color: 'cadetblue', background: 'white'}}className={local.filterBtn} onClick={() => this.filterList('GK')}>GK</button>
-                            <button style={(this.state.filterOption === 'def') ? {color: 'white', background: 'cadetblue'} : {color: 'cadetblue', background: 'white'}}className={local.filterBtn} onClick={() => this.filterList('DEF')}>DEF</button>
-                            <button style={(this.state.filterOption === 'mid') ? {color: 'white', background: 'cadetblue'} : {color: 'cadetblue', background: 'white'}}className={local.filterBtn} onClick={() => this.filterList('MID')}>MID</button>
-                            <button style={(this.state.filterOption === 'att') ? {color: 'white', background: 'cadetblue'} : {color: 'cadetblue', background: 'white'}}className={local.filterBtn} onClick={() => this.filterList('ATT')}>ATT</button>
+                            <button style={(this.state.filterOption === 'all') ? { color: 'white', background: 'cadetblue' } : { color: 'cadetblue', background: 'white' }} className={local.filterBtn} onClick={() => this.filterList('ALL')}>ALL</button>
+                            <button style={(this.state.filterOption === 'gk') ? { color: 'white', background: 'cadetblue' } : { color: 'cadetblue', background: 'white' }} className={local.filterBtn} onClick={() => this.filterList('GK')}>GK</button>
+                            <button style={(this.state.filterOption === 'def') ? { color: 'white', background: 'cadetblue' } : { color: 'cadetblue', background: 'white' }} className={local.filterBtn} onClick={() => this.filterList('DEF')}>DEF</button>
+                            <button style={(this.state.filterOption === 'mid') ? { color: 'white', background: 'cadetblue' } : { color: 'cadetblue', background: 'white' }} className={local.filterBtn} onClick={() => this.filterList('MID')}>MID</button>
+                            <button style={(this.state.filterOption === 'att') ? { color: 'white', background: 'cadetblue' } : { color: 'cadetblue', background: 'white' }} className={local.filterBtn} onClick={() => this.filterList('ATT')}>ATT</button>
                         </div>
                     </Col>
                     <Col xs={12} lg={10} md={10} className={local.playerListContainer}>
                         <Row className={local.playerList}>
-                            {this.props.listPlayers.map((player) => this.renderPlayers(player))}
+                            {this.state.listPlayers.map((player) => this.renderPlayers(player))}
                         </Row>
                     </Col>
                 </Row>
