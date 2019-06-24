@@ -106,8 +106,8 @@
     max-height: 40vh;
     overflow-y: scroll;
     width: 80%;
-    margin: 0 auto;
-    margin-bottom: 70px;
+    margin: 0 auto!important;
+    margin-bottom: 70px!important;
 }
 
 .selectedContainer_clublist_item {

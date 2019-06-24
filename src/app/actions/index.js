@@ -12,7 +12,7 @@ export const FETCH_PLAYERS = 'fetch_players';
 export const FILTER_PLAYERS = 'filter_players';
 
 var mainPlayerData = PlayerData;
-var freshClubData = ClubData;
+const freshClubData = ClubData;
 
 export function fetchAllPlayers() {
     let currentPlayerIndex = 0;
@@ -35,16 +35,13 @@ export function fetchAllPlayers() {
 }
 
 export function fetchAllClubs(value, clubs) {
-    let mainClubData = ClubData;
+    let mainClubData = ClubData.map((club) => {
+        club.selected = false;
+        club.clubBudget = 400;
+        club.players = [];
 
-    // mock data included (needs refactoring)
-    if (value == "some") {
-        mainClubData = ClubData.slice(0, 20);
-    } else if (value === "all") {
-        mainClubData = freshClubData;
-    } else {
-        mainClubData = clubs;
-    }
+        return club;
+    });
 
     return {
         type: FETCH_ALL_CLUBS,

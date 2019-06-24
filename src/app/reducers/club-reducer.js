@@ -19,7 +19,7 @@ export default (state = [], action) => {
             console.log(action.payload.clubs.length);
 
             let filteredClubs = action.payload.clubs.filter((club) => { 
-                return (club.club.toLowerCase()).indexOf(action.payload.term) != -1;
+                return (club.club.toLowerCase()).indexOf(action.payload.term.toLowerCase()) !== -1;
             });
 
             return filteredClubs;

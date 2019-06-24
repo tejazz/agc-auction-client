@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import * as local from './home.module.css';
-import { fetchAllClubs, fetchAllPlayers, updateCurrentPlayer, updateClubData, fetchLocalPlayerData, updateLocalPlayerData } from '../../actions';
+import { fetchAllPlayers, updateCurrentPlayer, updateClubData, fetchLocalPlayerData, updateLocalPlayerData } from '../../actions';
 import { connect } from 'react-redux';
 import { Row, Grid, Col } from 'react-flexbox-grid';
 import Squad from '../../../assets/images/squad.svg';
@@ -240,4 +240,4 @@ function mapStateToProps(state) {
     };
 }
 
-export default connect(mapStateToProps, { fetchAllClubs, fetchAllPlayers, updateCurrentPlayer, updateClubData, fetchLocalPlayerData, updateLocalPlayerData })(Home);
+export default connect(mapStateToProps, { fetchAllPlayers, updateCurrentPlayer, updateClubData, fetchLocalPlayerData, updateLocalPlayerData })(Home);

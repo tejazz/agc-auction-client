@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as local from './squads.module.css';
 import { connect } from 'react-redux';
-import { fetchAllClubs, fetchAllPlayers, updateClubData } from '../../actions';
+import { fetchAllPlayers, updateClubData } from '../../actions';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Fixtures from '../../../assets/images/fixture.svg';
 import Squad from '../../../assets/images/squad.svg';
@@ -151,4 +151,4 @@ function mapStateToProps(state) {
     };
 }
 
-export default connect(mapStateToProps, { fetchAllClubs, fetchAllPlayers, updateClubData })(Squads);
+export default connect(mapStateToProps, { fetchAllPlayers, updateClubData })(Squads);

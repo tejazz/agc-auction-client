@@ -1,19 +1,44 @@
 import React from 'react';
 import './App.css';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Home from './app/components/home/home';
-import Squads from './app/components/squads/squads';
-import TeamSelection from './app/components/team-selection/team-selection';
-import PlayerList from './app/components/player-list/player-list';
+import Loadable from 'react-loadable';
+
+function Loading({ error }) {
+  if (error) {
+    return 'Something went wrong';
+  } else {
+    return <h3>Loading...</h3>;
+  }
+}
+
+const Squads = Loadable({
+  loader: () => import('./app/components/squads/squads.js'),
+  loading: Loading
+})
+
+const TeamSelection = Loadable({
+  loader: () => import('./app/components/team-selection/team-selection.js'),
+  loading: Loading
+})
+
+const PlayerList = Loadable({
+  loader: () => import('./app/components/player-list/player-list.js'),
+  loading: Loading
+})
+
+const Home = Loadable({
+  loader: () => import('./app/components/home/home.js'),
+  loading: Loading
+})
 
 function App() {
   return (
     <div className="main-container">
       <Switch>
-        <Route exact path="/" render={(props) => <Home {...props} />} />
-        <Route path="/squad" render={(props) => <Squads {...props} />} />
-        <Route path="/teamselect" render={(props) => <TeamSelection {...props} />} />
-        <Route path="/list" render={(props) => <PlayerList {...props} />} />
+        <Route exact path="/" component={Home} />
+        <Route path="/squad" component={Squads} />
+        <Route path="/teamselect" component={TeamSelection} />
+        <Route path="/list" component={PlayerList} />
         <Redirect from="/**" to="/" />
       </Switch>
     </div>
