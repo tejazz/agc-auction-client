@@ -36,7 +36,7 @@ class Home extends Component {
             currentBidClub = this.props.clubs[0].club;
         }
 
-        this.props.fetchLocalPlayerData(0, currentBidClub);
+        this.props.fetchLocalPlayerData((localStorage.getItem("currentIndex")) ? localStorage.getItem("currentIndex") : 0, currentBidClub);
     }
 
     valueChange(e, type) {
@@ -85,6 +85,8 @@ class Home extends Component {
 
         this.props.updateCurrentPlayer(this.props.players.currentPlayerIndex, this.state.startNextIndex);
         this.props.fetchLocalPlayerData(this.props.players.currentPlayerIndex, this.props.localPlayerData.currentBidClub);
+
+        localStorage.setItem("currentIndex", this.props.players.currentPlayerIndex);
 
         this.setState({
             startNextIndex: this.state.startNextIndex + 1
