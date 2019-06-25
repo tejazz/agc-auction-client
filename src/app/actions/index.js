@@ -14,13 +14,19 @@ export const FILTER_PLAYERS = 'filter_players';
 var mainPlayerData = PlayerData;
 const freshClubData = ClubData;
 
-export function fetchAllPlayers() {
-    let currentPlayerIndex = 0;
+export function fetchAllPlayers(currIndex = 0) {
+    let currentPlayerIndex;
 
-    for (let index = 0; index < mainPlayerData.length; index++) {
-        if (mainPlayerData[index].active) {
-            currentPlayerIndex = index;
-            break;
+    if (currIndex > 0) {
+        currentPlayerIndex = currIndex;
+    } else {
+        currentPlayerIndex = 0;
+
+        for (let index = 0; index < mainPlayerData.length; index++) {
+            if (mainPlayerData[index].active) {
+                currentPlayerIndex = index;
+                break;
+            }
         }
     }
 
@@ -35,14 +41,20 @@ export function fetchAllPlayers() {
 }
 
 export function fetchAllClubs(value, clubs) {
-    let mainClubData = ClubData.map((club) => {
-        club.selected = false;
-        club.clubBudget = 400;
-        club.players = [];
+    let mainClubData = [];
 
-        return club;
-    });
-
+    if (value === "all") {
+        mainClubData = ClubData.map((club) => {
+            club.selected = false;
+            club.clubBudget = 400;
+            club.players = [];
+    
+            return club;
+        });
+    } else {
+        mainClubData = clubs;
+    }
+  
     return {
         type: FETCH_ALL_CLUBS,
         payload: mainClubData
@@ -61,6 +73,8 @@ export function updateClubData(currentPlayer, clubData) {
 }
 
 export function updateCurrentPlayer(currentPlayerIndex, startNextIndex) {
+
+    localStorage.setItem("players", JSON.stringify(mainPlayerData));
 
     return {
         type: UPDATE_PLAYERS,
@@ -107,7 +121,11 @@ export function searchClubs(term) {
     };
 }
 
-export function fetchPlayers() {
+export function fetchPlayers(playerData = []) {
+
+    if (playerData[0].name) {
+        mainPlayerData = playerData;
+    }
 
     return {
         type: FETCH_PLAYERS,

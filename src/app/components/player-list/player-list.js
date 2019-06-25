@@ -34,7 +34,7 @@ class PlayerList extends Component {
 
     componentDidMount() {
         this.recursiveStrategy();
-        this.props.fetchPlayers();
+        (localStorage.getItem("players")) ? this.props.fetchPlayers(localStorage.getItem("players")) : this.props.fetchPlayers();
     }
 
     navigateTo(urlParam) {

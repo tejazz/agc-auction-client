@@ -15,7 +15,7 @@ class TeamSelection extends Component {
             selectedClubs: []
         };
 
-        localStorage.removeItem('clubs');
+        localStorage.clear();
     }
 
     componentDidMount() {

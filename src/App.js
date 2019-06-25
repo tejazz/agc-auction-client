@@ -7,7 +7,7 @@ function Loading({ error }) {
   if (error) {
     return 'Something went wrong';
   } else {
-    return <h3>Loading...</h3>;
+    return <h3 className="loadableText">Loading...</h3>;
   }
 }
 

@@ -25,9 +25,16 @@ class Home extends Component {
             return;
         }
 
-        let currentBidClub = "";
+        if (localStorage.getItem("currentIndex")) {
+            this.setState({
+                startNextIndex: parseInt(localStorage.getItem("currentIndex")) + 1
+            });
+        }
 
-        this.props.fetchAllPlayers();
+        let currentBidClub = "";
+        (localStorage.getItem("currentIndex")) ?
+            this.props.fetchAllPlayers(parseInt(localStorage.getItem("currentIndex")) + 1) :
+            this.props.fetchAllPlayers();
 
         if (!this.props.clubs[0]) {
             this.props.updateClubData({}, JSON.parse(localStorage.getItem("clubs")));
@@ -36,7 +43,7 @@ class Home extends Component {
             currentBidClub = this.props.clubs[0].club;
         }
 
-        this.props.fetchLocalPlayerData((localStorage.getItem("currentIndex")) ? localStorage.getItem("currentIndex") : 0, currentBidClub);
+        this.props.fetchLocalPlayerData(0, currentBidClub);
     }
 
     valueChange(e, type) {
@@ -90,7 +97,7 @@ class Home extends Component {
         this.props.fetchLocalPlayerData(this.props.players.currentPlayerIndex, this.props.localPlayerData.currentBidClub);
 
         localStorage.setItem("currentIndex", this.props.players.currentPlayerIndex);
-
+        
         this.setState({
             startNextIndex: this.state.startNextIndex + 1
         });
@@ -137,7 +144,7 @@ class Home extends Component {
     }
 
     render() {
-        console.log(this.props);
+        console.log(this.state);
 
         if (!this.props.players.currentPlayer) {
             return (
