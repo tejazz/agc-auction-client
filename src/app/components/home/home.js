@@ -41,7 +41,10 @@ class Home extends Component {
 
     valueChange(e, type) {
         if (type === "CurrentPrice") {
-            this.props.updateLocalPlayerData(e.target.value, this.props.localPlayerData.currentBidClub);
+            const numPattern = /^[0-9\b]+$/;
+            if (e.target.value === '' || numPattern.test(e.target.value)) {
+                this.props.updateLocalPlayerData(e.target.value, this.props.localPlayerData.currentBidClub);
+            }
         } else if (type === "ClubChange") {
             this.props.updateLocalPlayerData(this.props.localPlayerData.currentPlayerValue, e.target.value);
         }
