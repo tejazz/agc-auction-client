@@ -77,7 +77,9 @@ class Squads extends Component {
     }
 
     render() {
+        console.log('%c Squads', 'color: red');
         console.log(this.props);
+        console.log(this.state);
 
         return (
             <Grid fluid style={{ margin: 0, padding: 0, overflowX: "hidden" }}>

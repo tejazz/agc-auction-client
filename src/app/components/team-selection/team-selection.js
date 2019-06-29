@@ -20,6 +20,7 @@ class TeamSelection extends Component {
 
     componentDidMount() {
         this.props.fetchAllClubs("all", []);
+        this.props.fetchAllPlayers(0, true);
     }
 
     getSearchValue(e) {
@@ -55,7 +56,7 @@ class TeamSelection extends Component {
 
     renderClubSelect(club, index) {
         return (
-            <div className={local.searchContainer_listitem} onClick={() => this.singleClubClicked(club, index)}>
+            <div className={local.searchContainer_listitem} onClick={() => this.singleClubClicked(club, index)} key={index}>
                 <img
                     src={club.clubLogo}
                     alt="logo"
@@ -75,7 +76,7 @@ class TeamSelection extends Component {
     renderSelectedClubs(club) {
 
         return (
-            <Col xs={6} lg={4} md={4} className={local.selectedContainer_clublist_main}>
+            <Col xs={6} lg={4} md={4} className={local.selectedContainer_clublist_main} key={club.name}>
                 <div className={local.selectedContainer_clublist_item}>
                     <img
                         src={club.clubLogo}
@@ -98,9 +99,6 @@ class TeamSelection extends Component {
     }
 
     render() {
-        console.log(this.props);
-        console.log(this.state);
-
         return (
             <Grid fluid style={{ margin: 0, padding: 0, overflowX: "hidden" }}>
                 <Row className={local.mainContainer}>

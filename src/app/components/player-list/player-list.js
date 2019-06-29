@@ -34,7 +34,7 @@ class PlayerList extends Component {
 
     componentDidMount() {
         this.recursiveStrategy();
-        (localStorage.getItem("players")) ? this.props.fetchPlayers(localStorage.getItem("players")) : this.props.fetchPlayers();
+        (localStorage.getItem("players")) ? this.props.fetchPlayers(JSON.parse(localStorage.getItem("players"))) : this.props.fetchPlayers();
     }
 
     navigateTo(urlParam) {
@@ -50,7 +50,7 @@ class PlayerList extends Component {
 
     renderPlayers(player) {
         return (
-            <Col xs={6} lg={2} md={3} style={{ padding: 0 }}>
+            <Col xs={6} lg={2} md={3} style={{ padding: 0 }} key={player.name}>
                 <div className={local.playerItem} style={(player.active) ? { opacity: 1 } : { opacity: 0.5 }}>
                     <div className={local.playerData}>
                         <p>{player.name}</p>
@@ -65,8 +65,6 @@ class PlayerList extends Component {
     }
 
     render() {
-        console.log(this.props);
-
         return (
             <Grid fluid style={{ margin: 0, padding: 0, overflowX: "hidden" }}>
                 <Row className={local.navBar}>
@@ -117,7 +115,7 @@ class PlayerList extends Component {
                     </Col>
                     <Col xs={12} lg={10} md={10} className={local.playerListContainer}>
                         <Row className={local.playerList}>
-                            {this.state.listPlayers.map((player) => this.renderPlayers(player))}
+                            {(this.state.listPlayers.length === 0) ? <div>No players found</div> : this.state.listPlayers.map((player) => this.renderPlayers(player))}
                         </Row>
                     </Col>
                 </Row>

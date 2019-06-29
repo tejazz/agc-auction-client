@@ -12,16 +12,25 @@ export const FETCH_PLAYERS = 'fetch_players';
 export const FILTER_PLAYERS = 'filter_players';
 
 var mainPlayerData = PlayerData;
-const freshClubData = ClubData;
 
 export function fetchAllPlayers(currIndex = 0) {
     let currentPlayerIndex;
 
     if (currIndex > 0) {
         currentPlayerIndex = currIndex;
-    } else {
+    } 
+    else if (!currIndex || currentPlayerIndex === 0) {
         currentPlayerIndex = 0;
 
+        for(var i = 0; i < mainPlayerData.length; i++) {
+           if (mainPlayerData[i].active === false) {
+            mainPlayerData[i].active = true;
+            mainPlayerData[i].soldPrice = 0;
+            mainPlayerData[i].currentClub = "";
+           }
+        }
+    } 
+    else {
         for (let index = 0; index < mainPlayerData.length; index++) {
             if (mainPlayerData[index].active) {
                 currentPlayerIndex = index;
@@ -122,9 +131,10 @@ export function searchClubs(term) {
 }
 
 export function fetchPlayers(playerData = []) {
+    mainPlayerData = playerData;
 
-    if (playerData[0].name) {
-        mainPlayerData = playerData;
+    if (playerData.length === 0) {
+        mainPlayerData = PlayerData;
     }
 
     return {

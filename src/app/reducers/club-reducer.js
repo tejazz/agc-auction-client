@@ -16,8 +16,6 @@ export default (state = [], action) => {
 
             return clubData;
         case SEARCH_PLAYERS:
-            console.log(action.payload.clubs.length);
-
             let filteredClubs = action.payload.clubs.filter((club) => { 
                 return (club.club.toLowerCase()).indexOf(action.payload.term.toLowerCase()) !== -1;
             });

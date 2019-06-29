@@ -12,7 +12,7 @@ import rootReducer from './app/reducers';
 
 const store = createStore(
     rootReducer,
-    applyMiddleware(ReduxLogger, ReduxPromise)
+    applyMiddleware(ReduxPromise)
 );
 
 ReactDOM.render(

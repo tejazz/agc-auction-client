@@ -141,8 +141,6 @@ class Home extends Component {
     }
 
     render() {
-        console.log(this.state);
-
         if (!this.props.players.currentPlayer) {
             return (
                 <div>
